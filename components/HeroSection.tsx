@@ -1,10 +1,12 @@
 ﻿import React from "react";
 import Image from "next/image";
 import { Button } from "./ui/button";
+import Navbar from "./Navbar";
 
 const HeroSection = () => {
   return (
     <div className="bg-slate-100 min-h-[600px] h-[calc(100vh-40px)] max-h-[760px] relative">
+      <Navbar />
       <div className="absolute inset-0 bg-red-100">
         <Image
           src="/images/banner_image_1.jpg"
@@ -30,7 +32,7 @@ const HeroSection = () => {
           />
         </ul>
       </div>
-      <div className="absolute top-0 w-[90%] max-w-[1024px] py-[46px] mx-auto left-0 right-0">
+      <div className="absolute top-0 w-[90%] max-w-[1024px] pb-[46px] mt-[110px] mx-auto left-0 right-0">
         <p className="text-center text-[#EDE0DD] text-[16px] leading-[24px] font-medium">
           Rhinestone Headband
         </p>
