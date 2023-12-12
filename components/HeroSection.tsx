@@ -4,7 +4,7 @@ import { Button } from "./ui/button";
 
 const HeroSection = () => {
   return (
-    <div className="bg-slate-100 min-h-[600px] h-[calc(100vh-40px)] relative">
+    <div className="bg-slate-100 min-h-[600px] h-[calc(100vh-40px)] max-h-[760px] relative">
       <div className="absolute inset-0 bg-red-100">
         <Image
           src="/images/banner_image_1.jpg"
@@ -14,7 +14,7 @@ const HeroSection = () => {
           className=""
         />
       </div>
-      <div className="absolute bottom-5 w-full block max-w-[1024px] mx-auto left-0 right-0">
+      <div className="absolute bottom-[64px] w-full pl-[20px] block max-w-[1024px] mx-auto left-0 right-0">
         <ul className="relative flex flex-col gap-[8px] text-[14px] text-white ">
           <li className="opacity-60 font-medium cursor-pointer">
             Lorem, ipsum dolor.

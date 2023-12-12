@@ -1,8 +1,20 @@
-﻿import Image from "next/image";
-
+﻿"use client";
+import { motion } from "framer-motion";
+import Image from "next/image";
+import { useState } from "react";
 const AppDownloadPrompt = () => {
+  const [display, setDisplay] = useState(true);
+  const variants = {
+    visible: { opacity: 1, y: 0 },
+    hidden: { opacity: 0, y: "-100%", height: 0 },
+  };
   return (
-    <div className="bg-white h-[40px] flex justify-center">
+    <motion.div
+      variants={variants}
+      initial={false}
+      animate={display ? "visible" : "hidden"}
+      className="bg-white h-[40px] flex justify-center"
+    >
       <div className="text-[12px] flex justify-center items-center h-full max-w-[1024px] w-[90%] relative font-medium">
         <p className="flex">
           Download the Laniakea Store app available both on android and ios.{" "}
@@ -23,9 +35,10 @@ const AppDownloadPrompt = () => {
           height="24"
           width="24"
           alt="close"
+          onClick={() => setDisplay(false)}
         />
       </div>
-    </div>
+    </motion.div>
   );
 };
 
