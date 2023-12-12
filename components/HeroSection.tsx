@@ -19,10 +19,14 @@ const HeroSection = () => {
       <div className="absolute bottom-[64px] w-full pl-[20px] block max-w-[1024px] mx-auto left-0 right-0">
         <ul className="relative flex flex-col gap-[8px] text-[14px] text-white ">
           <li className="opacity-60 font-medium cursor-pointer">
-            Lorem, ipsum dolor.
+            Tisot Santa Crown
           </li>
-          <li className="font-medium cursor-pointer">Lorem ipsum dolor sit.</li>
-          <li className="opacity-60 font-medium cursor-pointer">Lorem ipsum</li>
+          <li className="font-medium cursor-pointer">
+            Silverdine Headwear Gen 3
+          </li>
+          <li className="opacity-60 font-medium cursor-pointer">
+            Lumere Forever Ring
+          </li>
           <Image
             src="/images/current_banner.svg"
             height={2}
@@ -37,7 +41,7 @@ const HeroSection = () => {
           Rhinestone Headband
         </p>
         <h2 className="text-center text-[45px] text-white leading-[52px]">
-          Platina Silverdine Headwear
+          SILVERDINE HEADWEAR GEN 3
         </h2>
         <p className="text-center leading-[28px] text-[22px] text-white">
           For Soft Feathery Feel
