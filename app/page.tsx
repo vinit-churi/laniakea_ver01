@@ -14,6 +14,7 @@ import ShineTheDreams from "@/components/ShineTheDreams";
 import SpotLight from "@/components/SpotLight";
 import StunningCollection from "@/components/StunningCollection";
 import Testimonial from "@/components/Testimonial";
+import Divider from "@/components/Divider";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
       <AppDownloadPrompt />
       <HeroSection />
       <OccasionJewelrySpotlight />
+      <Divider />
       <JewelryMagicDiscovery />
       <FadeOutCollection />
       <LatestTrends />

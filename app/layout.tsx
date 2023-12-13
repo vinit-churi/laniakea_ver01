@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter, Roboto } from "next/font/google";
+import { Inter, Roboto, Roboto_Flex } from "next/font/google";
 import "./globals.css";
 
 // const inter = Inter({ subsets: ["latin"] });
@@ -15,6 +15,7 @@ export const metadata: Metadata = {
     url: "https://laniakeajewelry.com",
     description:
       "Fine quality jewelry purchase at affordable price. Shop online for rings, bracelets, necklaces, and earrings made with ethically sourced materials.",
+    authors: ["Vinit Churi, Vidyesh Churi, Rahul Patil"],
   },
 };
 
