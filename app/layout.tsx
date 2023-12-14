@@ -9,13 +9,13 @@ export const metadata: Metadata = {
   description:
     "Fine quality jewelry purchase at affordable price. Shop online for rings, bracelets, necklaces, and earrings made with ethically sourced materials.",
   keywords: ["Jewelry", "Jewellery", "Diamond", "Gold", "ring"],
+  metadataBase: new URL("https://laniakeajewelry.com"),
   openGraph: {
     title: "Lanikea Jewelry",
     siteName: "Lanikea Jewelry",
-    url: "https://laniakeajewelry.com",
+    url: "/",
     description:
       "Fine quality jewelry purchase at affordable price. Shop online for rings, bracelets, necklaces, and earrings made with ethically sourced materials.",
-    authors: ["Vinit Churi, Vidyesh Churi, Rahul Patil"],
   },
 };
 
