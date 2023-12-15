@@ -1,25 +1,25 @@
 export const jewelryCategories = [
-  { id: 1, category: "Rings" },
-  { id: 2, category: "Necklaces" },
-  { id: 3, category: "Earrings" },
-  { id: 4, category: "Bracelets" },
-  { id: 5, category: "Anklets" },
-  { id: 6, category: "Brooches" },
-  { id: 7, category: "Pendants" },
-  { id: 8, category: "Bangles" },
-  { id: 9, category: "Chains" },
-  { id: 10, category: "Cufflinks" },
-  { id: 11, category: "Jhumkas" },
-  { id: 12, category: "Maang Tikka" },
-  { id: 13, category: "Nose Rings" },
-  { id: 14, category: "Toe Rings" },
-  { id: 15, category: "Mangalsutra" },
-  { id: 16, category: "Waist Chains" },
-  { id: 17, category: "Hair Accessories" },
-  { id: 18, category: "Lockets" },
-  { id: 19, category: "Chokers" },
-  { id: 20, category: "Pocket Watches" },
-  { id: 21, category: "Tie Pins" },
+  { id: 1, category: "Anklets" },
+  { id: 2, category: "Amulet" },
+  { id: 3, category: "Bangle" },
+  { id: 4, category: "Belly Chain" },
+  { id: 5, category: "Bracelet" },
+  { id: 6, category: "Brooch" },
+  { id: 7, category: "Chain" },
+  { id: 8, category: "Chatelaine" },
+  { id: 9, category: "Crown" },
+  { id: 10, category: "Earring" },
+  { id: 11, category: "Elf Ears" },
+  { id: 12, category: "Hairband" },
+  { id: 13, category: "Hair Clip" },
+  { id: 14, category: "Hairpin" },
+  { id: 15, category: "Locket" },
+  { id: 16, category: "Medallion" },
+  { id: 17, category: "Mangal Sutra" },
+  { id: 18, category: "Neklace" },
+  { id: 19, category: "Pendant" },
+  { id: 20, category: "Ring" },
+  { id: 21, category: "Toe ring" },
 ];
 
 export const ExploreFooterLinks = [
@@ -29,74 +29,94 @@ export const ExploreFooterLinks = [
   },
   {
     id: 23,
-    label: "Buying guides",
+    label: "Buying Guide",
   },
   {
     id: 24,
-    label: "Carriers",
+    label: "Events",
   },
   {
     id: 25,
+    label: "Careers",
+  },
+  {
+    id: 26,
     label: "News",
   },
 ];
 
 export const CooperationFooterLinks = [
   {
-    id: 26,
+    id: 27,
     label: "Affiliate Program",
   },
   {
-    id: 27,
+    id: 28,
     label: "Become a Dealer",
   },
   {
-    id: 28,
-    label: "Apply for authorized store",
+    id: 29,
+    label: "Apply for Authorized Store",
   },
   {
-    id: 29,
+    id: 30,
+    label: "Become our Supplier",
+  },
+  {
+    id: 31,
     label: "Design Provider",
   },
 ];
 
 export const ServiceFooterLinks = [
   {
-    id: 30,
+    id: 32,
     label: "Silver care",
   },
   {
-    id: 31,
+    id: 33,
     label: "Gold care",
   },
 ];
 
 export const SupportFooterLinks = [
   {
-    id: 31,
-    label: "Product supply",
+    id: 34,
+    label: "Product Support",
   },
   {
-    id: 32,
-    label: "help center",
+    id: 35,
+    label: "Service Request and Inquiry",
   },
   {
-    id: 33,
-    label: "FAQS",
+    id: 36,
+    label: "Help Center",
+  },
+  {
+    id: 37,
+    label: "After-Sales Service Policies",
+  },
+  {
+    id: 38,
+    label: "FAQs",
   },
 ];
 
 export const CommunityFooterLinks = [
   {
-    id: 34,
-    label: "Whatsapp",
+    id: 39,
+    label: "Discord",
   },
   {
-    id: 35,
+    id: 40,
+    label: "WhatsApp",
+  },
+  {
+    id: 41,
     label: "Youtube",
   },
   {
-    id: 36,
+    id: 42,
     label: "Instagram",
   },
 ];
