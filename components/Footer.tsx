@@ -14,7 +14,7 @@ import {
 } from "@/constants/Categories";
 const Footer = () => {
   return (
-    <div className="bg-black py-8">
+    <div className="bg-white py-8">
       <div className="w-[1024px] mx-auto text-center text-white text-[22px] font-medium leading-7">
         Shop with Lanikea Store
       </div>
