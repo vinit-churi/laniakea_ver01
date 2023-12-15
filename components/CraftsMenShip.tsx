@@ -63,7 +63,7 @@ const CraftsMenShip = () => {
       </div>
       <div className="flex justify-between mt-[-64px]">
         <Image
-          width={320}
+          width={480}
           height={480}
           src="/images/craftsmanship_05.png"
           alt="craftsmanship"
