@@ -16,7 +16,7 @@ const QuickLinks = () => {
           Store
         </h2>
         <p className="text-center text-red-950 text-sm font-normal mt-2 leading-tight">
-          Learn more
+          Learn more ›
         </p>
       </div>
       <div className="py-8">
@@ -31,7 +31,7 @@ const QuickLinks = () => {
           Support
         </h2>
         <p className="text-center text-red-950 text-sm font-normal mt-2 leading-tight">
-          Learn more
+          Learn more ›
         </p>
       </div>
       <div className="py-8">
@@ -46,7 +46,7 @@ const QuickLinks = () => {
           Chat with us
         </h2>
         <p className="text-center text-red-950 text-sm font-normal mt-2 leading-tight">
-          Learn more
+          Learn more ›
         </p>
       </div>
     </div>
