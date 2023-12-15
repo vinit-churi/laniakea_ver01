@@ -15,6 +15,7 @@ import {
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu";
 import Image from "next/image";
+import { Button } from "./ui/button";
 
 const components: { title: string; href: string; description: string }[] = [
   {
@@ -71,6 +72,24 @@ function Navbar() {
               All Categories
             </NavigationMenuTrigger>
             <NavigationMenuContent>
+              <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
+                {components.map((component) => (
+                  <ListItem
+                    key={component.title}
+                    title={component.title}
+                    href={component.href}
+                  >
+                    {component.description}
+                  </ListItem>
+                ))}
+              </ul>
+            </NavigationMenuContent>
+          </NavigationMenuItem>
+          <NavigationMenuItem>
+            <NavigationMenuTrigger className="bg-transparent text-white hover:text-white hover:bg-transparent">
+              Best Sellers
+            </NavigationMenuTrigger>
+            <NavigationMenuContent>
               <ul className="grid gap-3 p-6 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]">
                 <li className="row-span-3">
                   <NavigationMenuLink asChild>
@@ -101,24 +120,7 @@ function Navbar() {
               </ul>
             </NavigationMenuContent>
           </NavigationMenuItem>
-          <NavigationMenuItem>
-            <NavigationMenuTrigger className="bg-transparent text-white hover:text-white hover:bg-transparent">
-              Best Sellers
-            </NavigationMenuTrigger>
-            <NavigationMenuContent>
-              <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
-                {components.map((component) => (
-                  <ListItem
-                    key={component.title}
-                    title={component.title}
-                    href={component.href}
-                  >
-                    {component.description}
-                  </ListItem>
-                ))}
-              </ul>
-            </NavigationMenuContent>
-          </NavigationMenuItem>
+
           <NavigationMenuItem>
             <NavigationMenuTrigger className="bg-transparent text-white hover:text-white hover:bg-transparent">
               Explore
@@ -157,7 +159,36 @@ function Navbar() {
           </NavigationMenuItem>
         </NavigationMenuList>
       </NavigationMenu>
-      <div></div>
+      <div className=" relative z-10 flex gap-5 items-center ">
+        <Image
+          className="cursor-pointer"
+          src="/images/search.png"
+          height={24}
+          width={24}
+          alt="search"
+        />
+        <Image
+          className="cursor-pointer"
+          src="/images/local_mall.png"
+          height={24}
+          width={24}
+          alt="mall"
+        />
+        <Image
+          className="cursor-pointer"
+          src="/images/web.svg"
+          height={24}
+          width={24}
+          alt="web"
+        />
+        <Button
+          className=" bg-primaryRegular hover:text-white hover:scale-105  text-white transition-[colors_scale] duration-300 ease-in-out hover:bg-primaryRegular/80 rounded-full w-[115px] h-[44px] flex items-center justify-center gap-2"
+          variant="ghost"
+        >
+          <Image src="/images/person.png" height={24} width={24} alt="person" />
+          Sign in
+        </Button>
+      </div>
     </div>
   );
 }
