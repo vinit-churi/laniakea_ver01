@@ -131,10 +131,52 @@ const Footer = () => {
           </div>
         </div>
       </div>
+      <div className="flex items-center gap-8 w-[90%] max-w-[1024px] mx-auto my-8">
+        <Image width={133} height={40} alt="logo" src="/images/Laniakea.png" />
+        <ul className="text-white flex gap-8">
+          <li className="text-white text-sm relative mt-2 font-medium leading-none">
+            About us
+          </li>
+          <li className="text-white text-sm relative mt-2 font-medium leading-none">
+            Contact us
+          </li>
+          <li className="text-white text-sm relative mt-2 font-medium leading-none">
+            Careers
+          </li>
+          <li className="text-white text-sm relative mt-2 font-medium leading-none">
+            FAQs
+          </li>
+          <li className="text-white text-sm relative mt-2 font-medium leading-none">
+            Returns
+          </li>
+          <li className="text-white text-sm relative mt-2 font-medium leading-none">
+            Shipping
+          </li>
+          <li className="text-white text-sm relative mt-2 font-medium leading-none">
+            Track order
+          </li>
+        </ul>
+      </div>
       <Divider className="max-w-[1024px] border-stone-300/50" />
-      <p className="text-stone-300 mt-4 text-xs font-medium  leading-none w-[90%] max-w-[1024px] mx-auto">
-        Copyright ©️ 2024 Lanikea All Rights Reserved.
-      </p>
+      <div className="text-white text-xs flex gap-2 w-[90%] max-w-[1024px] mx-auto mt-4">
+        <p>Laniakea Privacy Policy</p>
+        <p>•</p>
+        <p>Use of Cookies</p>
+        <p>•</p>
+        <p>Terms of Use</p>
+        <p>•</p>
+        <p>Business Information</p>
+        <p>•</p>
+        <p>Cookie Preferences</p>
+      </div>
+      <div className="w-[90%] mt-2 max-w-[1024px] mx-auto flex gap-4">
+        <p className="text-stone-300 text-xs font-medium leading-none">
+          Copyright ©️ 2024 Lanikea All Rights Reserved.
+        </p>
+        <p className="text-white text-xs font-medium leading-none">
+          Feedback on web experience
+        </p>
+      </div>
     </div>
   );
 };

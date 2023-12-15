@@ -54,7 +54,7 @@ module.exports = {
         },
       },
       boxShadow: {
-        primaryShadow: "0px 8px 32px 0px rgba(0, 0, 0, 0.50)",
+        primaryShadow: "0px 8px 32px 0px rgba(0, 0, 0, 0.25)",
       },
       borderRadius: {
         lg: "var(--radius)",
