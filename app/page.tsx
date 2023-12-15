@@ -19,14 +19,14 @@ import Divider from "@/components/Divider";
 export default function Home() {
   return (
     <main className="">
-      <AppDownloadPrompt />
+      {/* <AppDownloadPrompt />
       <HeroSection />
       <OccasionJewelrySpotlight />
       <Divider />
       <JewelryMagicDiscovery />
       <FadeOutCollection />
       <LatestTrends />
-      <SpotLight />
+      <SpotLight /> */}
       <ShineTheDreams />
       <CraftsMenShip />
       <NewCollection />
