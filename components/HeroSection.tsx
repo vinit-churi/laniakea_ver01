@@ -9,7 +9,7 @@ const HeroSection = () => {
       <Navbar />
       <div className="absolute inset-0 bg-red-100">
         <Image
-          src="/images/banner_image_1.jpg"
+          src="/images/banner_image_1.webp"
           objectFit="cover"
           layout="fill"
           alt="banner 1"

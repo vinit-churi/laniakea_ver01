@@ -132,7 +132,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="flex items-center gap-8 w-[90%] max-w-[1024px] mx-auto my-8">
-        <Image width={133} height={40} alt="logo" src="/images/Laniakea.png" />
+        <Image width={133} height={40} alt="logo" src="/images/Laniakea.svg" />
         <ul className="text-white flex gap-8">
           <li className="text-white text-sm relative mt-2 font-medium leading-none">
             About us

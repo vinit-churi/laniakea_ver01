@@ -8,40 +8,40 @@ const JewelryMagicDiscovery = () => {
         Discover the Magic of Jewelry Collection
       </h2>
       <div className="gap-[32px] grid grid-cols-2 w-[90%] max-w-[1024px] mx-auto mt-[64px] mb-[128px]">
-        <div className="rounded-2xl w-full aspect-square relative">
+        <div className="w-full aspect-square relative">
           <Image
-            src="/images/discover_01.png"
+            src="/images/discover_01.webp"
             alt="jewelry"
             fill={true}
             objectFit="cover"
-            className="object-center rounded-2xl"
+            className="object-center rounded-2xl outline-2 outline-white outline"
           />
         </div>
-        <div className="rounded-2xl w-full aspect-square  relative">
-          <Image
-            src="/images/discover_02.png"
+        <div className="w-full aspect-square relative">          
+        <Image
+            src="/images/discover_02.webp"
             alt="jewelry"
             fill={true}
             objectFit="cover"
-            className="object-center rounded-2xl"
+            className="object-center rounded-2xl outline-2 outline-white outline"
           />
         </div>
-        <div className="rounded-2xl w-full aspect-square  relative">
+        <div className="w-full aspect-square relative">
           <Image
-            src="/images/discover_03.png"
+            src="/images/discover_03.webp"
             alt="jewelry"
             fill={true}
             objectFit="cover"
-            className="object-center rounded-2xl"
+            className="object-center rounded-2xl outline-2 outline-white outline"
           />
         </div>
-        <div className="rounded-2xl w-full aspect-square relative">
+        <div className="w-full aspect-square relative">
           <Image
-            src="/images/discover_04.png"
+            src="/images/discover_04.webp"
             alt="jewelry"
             fill={true}
             objectFit="cover"
-            className="object-center rounded-2xl"
+            className="object-center rounded-2xl outline-2 outline-white outline"
           />
         </div>
       </div>

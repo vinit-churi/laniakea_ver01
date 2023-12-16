@@ -4,16 +4,17 @@ import { Button } from "./ui/button";
 
 const NewCollection = () => {
   return (
-    <div className='bg-[url("/images/collection-background.png")] bg-cover bg-center py-[128px]'>
+    <div className='bg-[url("/images/n_c_bg.png")] bg-cover bg-center py-[128px]'>
       <h2 className="text-center text-red-950 text-[45px] font-normal mb-16  leading-[52px]">
         New Collection
       </h2>
-      <div className="grid grid-cols-3 gap-8 w-[90%] max-w-[1024px] mx-auto">
+      <div className="grid grid-cols-3 gap-8 w-[1024px] mx-auto">
         <div className="relative w-full aspect-square">
           <Image
             fill={true}
-            src="/images/collection_01.png"
-            alt="craftsmanship"
+            src="/images/collection_01.webp"
+            alt="craftsmanship 1"
+            className="rounded-t-[16px] rounded-bl-[16px] rounded-br-[160px] relative w-full aspect-square outline-2 outline-white outline"
           />
         </div>
         <div className="bg-white h-full w-full rounded-t-3xl rounded-b-[300px] flex flex-col gap-4 justify-center items-center">
@@ -27,29 +28,33 @@ const NewCollection = () => {
         <div className="relative w-full aspect-square">
           <Image
             fill={true}
-            src="/images/collection_02.png"
-            alt="craftsmanship"
+            src="/images/collection_02.webp"
+            alt="craftsmanship 2"
+            className="rounded-tl-[16px] rounded-tr-[160px] rounded-b-[16px] relative w-full aspect-square outline-2 outline-white outline"
           />
         </div>
         <div className="relative w-full aspect-square">
           <Image
             fill={true}
-            src="/images/collection_03.png"
-            alt="craftsmanship"
+            src="/images/collection_03.webp"
+            alt="craftsmanship 3"
+            className="rounded-t-[16px] rounded-bl-[160px] rounded-br-[16px] relative w-full aspect-square outline-2 outline-white outline"
           />
         </div>
         <div className="relative w-full aspect-square">
           <Image
             fill={true}
-            src="/images/collection_04.png"
-            alt="craftsmanship"
+            src="/images/collection_04.webp"
+            alt="craftsmanship 4"
+            className="rounded-t-[160px] rounded-b-[16px] relative w-full aspect-square outline-2 outline-white outline"
           />
         </div>
         <div className="relative w-full aspect-square">
           <Image
             fill={true}
-            src="/images/collection_05.png"
-            alt="craftsmanship"
+            src="/images/collection_05.webp"
+            alt="craftsmanship 5"
+            className="rounded-tl-[160px] rounded-tr-[16px] rounded-b-[16px] relative w-full aspect-square outline-2 outline-white outline"
           />
         </div>
       </div>

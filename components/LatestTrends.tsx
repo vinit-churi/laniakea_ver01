@@ -9,31 +9,31 @@ const LatestTrends = () => {
         Discover The Latest Trends
       </div>
       <div className="flex gap-8 w-full mt-16">
-        <div className="flex-1 relative rounded-2xl aspect-[3/4] bg-red-300">
+        <div className="flex-1 relative aspect-[3/4]">
           <Image
-            src="/images/trends_01.png"
+            src="/images/trends_01.webp"
             alt="jewelry"
             fill={true}
             objectFit="cover"
-            className="object-center rounded-2xl"
+            className="aspect-[3/4] rounded-2xl outline-2 outline-white outline"
           />
         </div>
-        <div className="flex-1 relative rounded-2xl aspect-[3/4] bg-red-300">
+        <div className="flex-1 relative aspect-[3/4]">
           <Image
-            src="/images/trends_02.png"
+            src="/images/trends_02.webp"
             alt="jewelry"
             fill={true}
             objectFit="cover"
-            className="object-center rounded-2xl"
+            className="object-center aspect-[3/4] rounded-2xl outline-2 outline-white outline"
           />
         </div>
-        <div className="flex-1 relative rounded-2xl aspect-[3/4] bg-red-300">
+        <div className="flex-1 relative aspect-[3/4]">
           <Image
-            src="/images/trends_03.png"
+            src="/images/trends_03.webp"
             alt="jewelry"
             fill={true}
             objectFit="cover"
-            className="object-center rounded-2xl"
+            className="object-center aspect-[3/4] rounded-2xl outline-2 outline-white outline"
           />
         </div>
       </div>

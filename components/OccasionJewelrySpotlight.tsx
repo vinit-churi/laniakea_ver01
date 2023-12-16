@@ -14,7 +14,7 @@ const OccasionJewelrySpotlight = () => {
         </p>
         <Button className="mt-[16px] bg-primaryRegular transition-colors duration-300 ease-in-out hover:bg-primaryRegular/80 rounded-full w-[105px] h-[44px] flex items-center justify-center gap-2">
           <Image
-            src="/images/local_mall.png"
+            src="/images/local_mall.svg"
             height={24}
             width={24}
             alt="shop"

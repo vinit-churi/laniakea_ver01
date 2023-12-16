@@ -21,7 +21,7 @@ const Testimonial = () => {
             short of amazing.{" "}
           </h4>
           <Image
-            src="/images/photo_testimonial_1.png"
+            src="/images/photo_testimonial_1.webp"
             height={90}
             width={90}
             alt="profile"
@@ -37,7 +37,7 @@ const Testimonial = () => {
             short of amazing.{" "}
           </h4>
           <Image
-            src="/images/photo_testimonial_2.png"
+            src="/images/photo_testimonial_2.webp"
             height={90}
             width={90}
             alt="profile"
@@ -53,7 +53,7 @@ const Testimonial = () => {
             short of amazing.{" "}
           </h4>
           <Image
-            src="/images/photo_testimonial_3.png"
+            src="/images/photo_testimonial_3.webp"
             height={90}
             width={90}
             alt="profile"

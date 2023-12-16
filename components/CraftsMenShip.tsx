@@ -33,16 +33,18 @@ const CraftsMenShip = () => {
         <Image
           width={480}
           height={480}
-          src="/images/craftsmanship_02.png"
+          src="/images/craftsmanship_02.webp"
           alt="craftsmanship"
+          className="rounded-tl-[16px] rounded-tr-[160px] rounded-bl-[160px] rounded-br-[16px] aspect-square outline-2 outline-white outline"
         />
       </div>
       <div className="flex justify-between mt-[-64px]">
         <Image
           width={320}
           height={480}
-          src="/images/craftsmanship_03.png"
+          src="/images/craftsmanship_03.webp"
           alt="craftsmanship"
+          className="rounded-t-[160px] rounded-bl-[16px] rounded-br-[160px] outline-2 outline-white outline"
         />
         <div className="w-[480px] text-red-950 text-[28px] font-normal self-center leading-9">
           CNC engraving helps us reduce gold wastage which is depicted in our
@@ -57,16 +59,18 @@ const CraftsMenShip = () => {
         <Image
           width={320}
           height={480}
-          src="/images/craftsmanship_04.png"
+          src="/images/craftsmanship_04.webp"
           alt="craftsmanship"
+          className="rounded-[160px] outline-2 outline-white outline"
         />
       </div>
       <div className="flex justify-between mt-[-64px]">
         <Image
           width={480}
           height={480}
-          src="/images/craftsmanship_05.png"
+          src="/images/craftsmanship_05.webp"
           alt="craftsmanship"
+          className="rounded-tl-[16px] rounded-tr-[160px] rounded-bl-[160px] rounded-br-[16px] aspect-square outline-2 outline-white outline"
         />
         <div className="w-[480px] text-red-950 text-[28px] font-normal self-center leading-9">
           3D printed precious metal parts for complex designs

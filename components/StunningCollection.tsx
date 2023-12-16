@@ -49,10 +49,11 @@ const StunningCollection = () => {
         </div>
       </div>
       <Image
-        src="/images/stunning.png"
+        src="/images/stunning_collection.webp"
         alt="jewelry"
         width={480}
         height={480}
+        className="rounded-2xl relative w-full aspect-square outline-2 outline-white outline"
       />
     </div>
   );
