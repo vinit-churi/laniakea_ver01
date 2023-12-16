@@ -53,7 +53,7 @@ const StunningCollection = () => {
         alt="jewelry"
         width={480}
         height={480}
-        className="rounded-2xl relative w-full aspect-square outline-2 outline-white outline"
+        className="rounded-2xl relative outline-2 outline-white outline"
       />
     </div>
   );
