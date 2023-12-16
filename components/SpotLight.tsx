@@ -21,32 +21,32 @@ const SpotLight = () => {
         you.
       </div>
       <div className=" h-[288px]  flex max-w-[1024px] mt-16 gap-8">
-        <div className="rounded-2xl transition-height ease-in-out duration-300 hover:h-full grow shrink h-[121px] peer order-1 self-center aspect-[16/9]   relative">
+        <div className="transition-height ease-in-out duration-300 hover:h-full grow shrink h-[121px] peer order-1 self-center aspect-[16/9]   relative">
           <Image
-            src="/images/spotlight_01.png"
+            src="/images/spotlight_01.webp"
             alt="jewelry"
             fill={true}
             objectFit="cover"
-            className="object-center rounded-2xl"
+            className="rounded-2xl outline-2 outline-white outline"
           />
         </div>
 
-        <div className="rounded-2xl transition-height ease-in-out duration-300 hover:h-full grow shrink h-[121px] peer order-3 self-center aspect-[16/9]  relative">
+        <div className="transition-height ease-in-out duration-300 hover:h-full grow shrink h-[121px] peer order-3 self-center aspect-[16/9]  relative">
           <Image
-            src="/images/spotlight_03.png"
+            src="/images/spotlight_03.webp"
             alt="jewelry"
             fill={true}
             objectFit="cover"
-            className="object-center rounded-2xl"
+            className="rounded-2xl outline-2 outline-white outline"
           />
         </div>
-        <div className="rounded-2xl grow self-center transition-height ease-in-out duration-300 shrink h-full peer-hover:h-[121px] order-2 aspect-[16/9]  relative">
+        <div className="grow self-center transition-height ease-in-out duration-300 shrink h-full peer-hover:h-[121px] order-2 aspect-[16/9]  relative">
           <Image
-            src="/images/spotlight_02.png"
+            src="/images/spotlight_02.webp"
             alt="jewelry"
             fill={true}
             objectFit="cover"
-            className="object-center rounded-2xl"
+            className="rounded-2xl outline-2 outline-white outline"
           />
         </div>
       </div>

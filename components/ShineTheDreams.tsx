@@ -21,46 +21,46 @@ const ShineTheDreams = () => {
       </div>
       <div className="w-[90%] mx-auto max-w-[1024px] my-[64px] grid grid-rows-2 grid-cols-3 gap-8">
         <Image
-          src="/images/dream_01.png"
+          src="/images/dream_01.webp"
           alt="jewelry"
           width={320}
           height={320}
-          className=""
+          className="rounded-tl-[160px] rounded-tr-[16px] rounded-b-[16px] relative w-full aspect-square outline-2 outline-white outline"
         />
         <Image
-          src="/images/dream_02.png"
+          src="/images/dream_02.webp"
           alt="jewelry"
           width={320}
           height={320}
-          className=""
+          className="rounded-t-[160px] rounded-b-[16px] relative w-full aspect-square outline-2 outline-white outline"
         />
         <Image
-          src="/images/dream_03.png"
+          src="/images/dream_03.webp"
           alt="jewelry"
           width={320}
           height={320}
-          className=""
+          className="rounded-tl-[160px] rounded-tr-[16px] rounded-b-[16px] relative w-full aspect-square outline-2 outline-white outline"
         />
         <Image
-          src="/images/dream_04.png"
+          src="/images/dream_04.webp"
           alt="jewelry"
           width={320}
           height={320}
-          className=""
+          className="rounded-t-[16px] rounded-bl-[16px] rounded-br-[160px] relative w-full aspect-square outline-2 outline-white outline"
         />
         <Image
-          src="/images/dream_05.png"
+          src="/images/dream_05.webp"
           alt="jewelry"
           width={320}
           height={320}
-          className=""
+          className="rounded-t-[16px] rounded-b-[160px] relative w-full aspect-square outline-2 outline-white outline"
         />
         <Image
-          src="/images/dream_06.png"
+          src="/images/dream_06.webp"
           alt="jewelry"
           width={320}
           height={320}
-          className=""
+          className="rounded-t-[16px] rounded-bl-[160px] rounded-br-[16px] relative w-full aspect-square outline-2 outline-white outline"
         />
       </div>
       <Button className=" bg-primaryRegular transition-colors duration-300 ease-in-out hover:bg-primaryRegular/80 rounded-full mx-auto w-[187px] h-[40px] flex items-center justify-center gap-2">

@@ -59,7 +59,7 @@ function Navbar() {
   return (
     <div className="py-4 max-w-[1024px] w-[90%] items-center mx-auto grid grid-cols-[max-content_auto_max-content]">
       <Image
-        src="/images/Laniakea.png"
+        src="/images/Laniakea.svg"
         alt="logo"
         width={133}
         height={40}
@@ -162,14 +162,14 @@ function Navbar() {
       <div className=" relative z-10 flex gap-5 items-center ">
         <Image
           className="cursor-pointer"
-          src="/images/search.png"
+          src="/images/search.svg"
           height={24}
           width={24}
           alt="search"
         />
         <Image
           className="cursor-pointer"
-          src="/images/local_mall.png"
+          src="/images/local_mall.svg"
           height={24}
           width={24}
           alt="mall"
@@ -185,7 +185,7 @@ function Navbar() {
           className=" bg-primaryRegular hover:text-white hover:scale-105  text-white transition-[colors_scale] duration-300 ease-in-out hover:bg-primaryRegular/80 rounded-full w-[115px] h-[44px] flex items-center justify-center gap-2"
           variant="ghost"
         >
-          <Image src="/images/person.png" height={24} width={24} alt="person" />
+          <Image src="/images/person.svg" height={24} width={24} alt="person" />
           Sign in
         </Button>
       </div>
