@@ -38,7 +38,7 @@ export const slides = [
     headTitle: "Rhinestone Headband",
     mainTitle: "Rhinestone Headband",
     info: "Rhinestone Headband",
-    image: "/images/banner_image_3.png",
+    image: "/images/banner_image_4.png",
     buttons: [
       {
         title: "Shop Now",
