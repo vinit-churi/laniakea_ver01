@@ -44,7 +44,7 @@ const HeroImageSlider = (props: TProps) => {
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
               transition={{ duration: 1 }}
-              className="absolute inset-0 bg-black"
+              className="absolute inset-0"
             >
               <Image
                 src={item.image}
