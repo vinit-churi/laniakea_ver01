@@ -52,7 +52,7 @@ export const slides = [
   },
   {
     id: 4,
-    image: "/images/banner_image_2.png",
+    image: "/images/banner_image_3.png",
     buttons: [
       {
         title: "Shop Now",
