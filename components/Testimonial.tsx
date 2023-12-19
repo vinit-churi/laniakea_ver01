@@ -33,8 +33,8 @@ const Testimonial = () => {
         </div>
         <div className="flex-1 rounded-[30px] px-4 pt-12 pb-4 shadow-primaryShadow">
           <h4 className="w-72 text-center text-red-950 text-base font-medium  leading-normal">
-            Our experience with this jewelry ecommerce website has been nothing
-            short of amazing.{" "}
+            The quality of their products and the level of customer service they
+            provide is outstanding.{" "}
           </h4>
           <Image
             src="/images/photo_testimonial_2.webp"
@@ -49,8 +49,8 @@ const Testimonial = () => {
         </div>
         <div className="flex-1 rounded-[30px] border-2 border-orange-800  px-4 pt-12 pb-4">
           <h4 className="w-72 text-center text-red-950 text-base font-medium  leading-normal">
-            Our experience with this jewelry ecommerce website has been nothing
-            short of amazing.{" "}
+            The selection of rings was incredible, and the prices were very
+            reasonable. I was also impressed with the customer service.{" "}
           </h4>
           <Image
             src="/images/photo_testimonial_3.webp"
