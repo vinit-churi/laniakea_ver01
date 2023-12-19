@@ -8,7 +8,7 @@ import { useState } from "react";
 import { Button } from "../ui/button";
 import Image from "next/image";
 const HeroAnimationController = () => {
-  const [currentSlide, setCurrentSlide] = useState(0);
+  const [currentSlide, setCurrentSlide] = useState(1);
   const numberOfSlides = 4;
   const isBlocked = useRef(false);
 

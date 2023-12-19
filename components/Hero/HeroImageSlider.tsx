@@ -10,57 +10,20 @@ type TProps = {
 };
 
 const HeroImageSlider = (props: TProps) => {
-  // console.log(slides[props.currentSlide].image);
-  // const [firstRender, setFirstRender] = React.useState(true);
-  // useEffect(() => {
-  //   setFirstRender(false);
-  // }, []);
   return (
     <div className="absolute inset-0">
-      {/* <AnimatePresence>
-        <motion.div
-          key={props.currentSlide}
-          initial={firstRender ? false : { opacity: 0 }}
-          animate={{ opacity: 1 }}
-          exit={{ opacity: 0 }}
-          transition={{ duration: 1 }}
-          className="absolute inset-0 bg-black"
-        >
-          <Image
-            src={slides[props.currentSlide].image}
-            objectFit="cover"
-            layout="fill"
-            alt="banner 1"
-            className=""
-          />
-        </motion.div>
-      </AnimatePresence> */}
-      <AnimatePresence>
-        {slides.map((item, index) => (
-          // <AnimatePresence key={index}>
-          <React.Fragment key={item.id}>
-            {index === props.currentSlide && (
-              <motion.div
-                key={index}
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                exit={{ opacity: 0 }}
-                transition={{ duration: 1 }}
-                className="absolute inset-0"
-              >
-                <Image
-                  src={item.image}
-                  objectFit="cover"
-                  layout="fill"
-                  alt="banner 1"
-                  className=""
-                />
-              </motion.div>
-            )}
-          </React.Fragment>
-          // </AnimatePresence>
-        ))}
-      </AnimatePresence>
+      {slides.map((item) => (
+        <Image
+          key={item.id}
+          src={item.image}
+          objectFit="cover"
+          layout="fill"
+          alt={`banner ${item.image}`}
+          className={`${
+            item.id === props.currentSlide ? "opacity-100" : "opacity-0"
+          } transition-opacity duration-1000 ease-in-out`}
+        />
+      ))}
     </div>
   );
 };
