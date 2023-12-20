@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useState } from "react";
 import Image from "next/image";
+import { slides } from "@/constants/Slider";
 
 type TProps = {
   // slides: THeroSliderItem[];
@@ -7,10 +8,22 @@ type TProps = {
 };
 
 const HeroCarouselIndicator = (props: TProps) => {
+  const [currentSlides, setCurrentSlides] = useState(slides);
+
   return (
     <div className="absolute bottom-[64px] w-full pl-[20px] block max-w-[1024px] mx-auto left-0 right-0">
       <ul className="relative flex flex-col gap-[8px] text-[14px] text-white ">
-        <li className="opacity-60 font-medium cursor-pointer">
+        {slides.slice(0, 3).map((item) => (
+          <li
+            key={item.id}
+            className={`${
+              item.id === props.currentSlide ? "font-medium" : "opacity-60"
+            } cursor-pointer`}
+          >
+            {item.mainTitle}
+          </li>
+        ))}
+        {/* <li className="opacity-60 font-medium cursor-pointer">
           Tisot Santa Crown
         </li>
         <li className="font-medium cursor-pointer">
@@ -18,7 +31,7 @@ const HeroCarouselIndicator = (props: TProps) => {
         </li>
         <li className="opacity-60 font-medium cursor-pointer">
           Lumere Forever Ring
-        </li>
+        </li> */}
         <Image
           src="/images/current_banner.svg"
           height={2}
