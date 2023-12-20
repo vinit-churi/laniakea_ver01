@@ -36,7 +36,11 @@ const HeroCarouselIndicator = (props: TProps) => {
               opacity: 0,
               height: "0",
             }}
-            animate={{ opacity: 1, height: "30px", y: `${100 * index}%` }}
+            animate={{
+              opacity: index === 1 ? 1 : 0.5,
+              height: "30px",
+              y: `${100 * index}%`,
+            }}
             transition={{ duration: 0.3 }}
             key={item.id}
             onClick={() => {
@@ -47,9 +51,7 @@ const HeroCarouselIndicator = (props: TProps) => {
                 props.nextSlide();
               }
             }}
-            className={`${
-              item.id === props.currentSlide ? "font-medium" : "opacity-40"
-            } cursor-pointer absolute`}
+            className={`cursor-pointer absolute `}
           >
             {item.mainTitle} {index}
           </motion.li>
