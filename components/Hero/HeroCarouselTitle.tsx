@@ -21,7 +21,7 @@ const HeroCarouselTitle = (props: TProps) => {
         <p className="text-center text-[#EDE0DD] text-[16px] leading-[24px] font-medium">
           {slidesData[props.currentSlide].headTitle}
         </p>
-        <h2 className="text-center text-[45px] text-white leading-[52px]">
+        <h2 className="text-center text-[45px] text-white leading-[52px] uppercase">
           {slidesData[props.currentSlide].mainTitle}
         </h2>
         <p className="text-center leading-[28px] text-[22px] text-white">

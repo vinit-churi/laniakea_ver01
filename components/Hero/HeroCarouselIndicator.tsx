@@ -53,7 +53,7 @@ const HeroCarouselIndicator = (props: TProps) => {
             }}
             className={`cursor-pointer absolute `}
           >
-            {item.mainTitle} {index}
+            {item.mainTitle}
           </motion.li>
         ))}
         <Image
