@@ -32,7 +32,11 @@ const HeroAnimationController = () => {
   return (
     <>
       <HeroImageSlider currentSlide={currentSlide} />
-      <HeroCarouselIndicator currentSlide={currentSlide} />
+      <HeroCarouselIndicator
+        currentSlide={currentSlide}
+        nextSlide={nextSlide}
+        prevSlide={prevSlide}
+      />
       <HeroCarouselTitle currentSlide={currentSlide} />
       <Button
         onClick={prevSlide}

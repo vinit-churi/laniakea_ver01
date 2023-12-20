@@ -1,4 +1,4 @@
-function rotateLeft(arr: string[]) {
+export function rotateLeft(arr: any[]) {
   if (!arr.length) {
     return arr;
   }
@@ -8,7 +8,7 @@ function rotateLeft(arr: string[]) {
   return newArr;
 }
 
-function rotateRight(arr: string[]) {
+export function rotateRight(arr: any[]) {
   if (!arr.length) {
     return arr;
   }
