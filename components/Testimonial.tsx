@@ -15,7 +15,7 @@ const Testimonial = () => {
         accordingly.
       </p>
       <div className="flex mt-8 gap-8">
-        <div className="flex-1 rounded-[30px] border-2 border-orange-800  px-4 pt-12 pb-4">
+        <div className="flex-1 rounded-[30px] border-2 border-orange-800 aspect-square px-4 pt-12 pb-4">
           <h4 className="w-72 text-center text-red-950 text-base font-medium  leading-normal">
             Our experience with this jewelry ecommerce website has been nothing
             short of amazing.{" "}
@@ -31,7 +31,7 @@ const Testimonial = () => {
             Sushma Das
           </p>
         </div>
-        <div className="flex-1 rounded-[30px] px-4 pt-12 pb-4 shadow-primaryShadow">
+        <div className="flex-1 aspect-square rounded-[30px] px-4 pt-12 pb-4 shadow-primaryShadow">
           <h4 className="w-72 text-center text-red-950 text-base font-medium  leading-normal">
             The quality of their products and the level of customer service they
             provide is outstanding.{" "}
@@ -47,7 +47,7 @@ const Testimonial = () => {
             Jaimon D&apos;cunha
           </p>
         </div>
-        <div className="flex-1 rounded-[30px] border-2 border-orange-800  px-4 pt-12 pb-4">
+        <div className="flex-1 rounded-[30px] border-2 border-orange-800 aspect-square px-4 pt-12 pb-4">
           <h4 className="w-72 text-center text-red-950 text-base font-medium  leading-normal">
             The selection of rings was incredible, and the prices were very
             reasonable. I was also impressed with the customer service.{" "}
@@ -57,7 +57,7 @@ const Testimonial = () => {
             height={90}
             width={90}
             alt="profile"
-            className="mt-12 rounded-full block mx-auto"
+            className="mt-6 rounded-full block mx-auto"
           />
           <p className="text-center mt-4 text-red-950 text-base font-medium leading-normal">
             Avril D&apos;souza
