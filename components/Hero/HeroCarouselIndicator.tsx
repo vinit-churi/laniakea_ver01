@@ -5,26 +5,12 @@ import { slides } from "@/constants/Slider";
 import { AnimatePresence, motion } from "framer-motion";
 import { rotateLeft, rotateRight } from "@/utils/utils";
 type TProps = {
-  // slides: THeroSliderItem[];
   currentSlide: number;
   nextSlide: () => void;
   prevSlide: () => void;
 };
 
 const HeroCarouselIndicator = (props: TProps) => {
-  // const [currentSlides, setCurrentSlides] = useState(slides);
-  // function changePosition(itemId: number) {
-  //   console.log("itemId", itemId);
-  //   console.log("props.currentSlide", props.currentSlide);
-  //   if (itemId > props.currentSlide) {
-  //     const newSlides = rotateLeft(currentSlides);
-  //     setCurrentSlides(newSlides);
-  //   }
-  //   if (itemId < props.currentSlide) {
-  //     const newSlides = rotateRight(currentSlides);
-  //     setCurrentSlides(newSlides);
-  //   }
-  // }
   const currentSlides = [slides[props.currentSlide]];
   if (props.currentSlide === 0) {
     currentSlides.unshift(slides[slides.length - 1]);
@@ -49,7 +35,6 @@ const HeroCarouselIndicator = (props: TProps) => {
             initial={{
               opacity: 0,
               height: "0",
-              // y: index === 2 ? "90px" : "10px",
             }}
             animate={{ opacity: 1, height: "30px", y: `${100 * index}%` }}
             transition={{ duration: 0.3 }}
