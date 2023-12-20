@@ -69,7 +69,7 @@ function Navbar() {
         <NavigationMenuList>
           <NavigationMenuItem>
             <NavigationMenuTrigger className="bg-transparent text-white hover:text-white hover:bg-transparent">
-              All Categories
+              Themed Jewelry
             </NavigationMenuTrigger>
             <NavigationMenuContent>
               <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
@@ -87,7 +87,7 @@ function Navbar() {
           </NavigationMenuItem>
           <NavigationMenuItem>
             <NavigationMenuTrigger className="bg-transparent text-white hover:text-white hover:bg-transparent">
-              Best Sellers
+              All Categories
             </NavigationMenuTrigger>
             <NavigationMenuContent>
               <ul className="grid gap-3 p-6 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]">
@@ -123,7 +123,7 @@ function Navbar() {
 
           <NavigationMenuItem>
             <NavigationMenuTrigger className="bg-transparent text-white hover:text-white hover:bg-transparent">
-              Explore
+              Customized
             </NavigationMenuTrigger>
             <NavigationMenuContent>
               <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
@@ -144,7 +144,7 @@ function Navbar() {
               <NavigationMenuLink
                 className={`${navigationMenuTriggerStyle()} bg-transparent text-white hover:bg-transparent hover:text-white`}
               >
-                Customize
+                Explore
               </NavigationMenuLink>
             </Link>
           </NavigationMenuItem>
