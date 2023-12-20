@@ -2,7 +2,7 @@ export const slides = [
   {
     id: 0,
     headTitle: "Rhinestone Headband",
-    mainTitle: "Rhinestone Headband",
+    mainTitle: "Rhinestone Headband 1",
     info: "Rhinestone Headband",
     image: "/images/banner_image_1.png",
     buttons: [
@@ -19,7 +19,7 @@ export const slides = [
   {
     id: 1,
     headTitle: "Rhinestone Headband",
-    mainTitle: "Rhinestone Headband",
+    mainTitle: "Rhinestone Headband 2",
     info: "Rhinestone Headband",
     image: "/images/banner_image_2.png",
     buttons: [
@@ -36,7 +36,7 @@ export const slides = [
   {
     id: 2,
     headTitle: "Rhinestone Headband",
-    mainTitle: "Rhinestone Headband",
+    mainTitle: "Rhinestone Headband 3",
     info: "Rhinestone Headband",
     image: "/images/banner_image_3.png",
     buttons: [
@@ -52,6 +52,9 @@ export const slides = [
   },
   {
     id: 3,
+    headTitle: "Rhinestone Headband",
+    mainTitle: "Rhinestone Headband 4",
+    info: "Rhinestone Headband",
     image: "/images/banner_image_4.png",
     buttons: [
       {
@@ -66,6 +69,9 @@ export const slides = [
   },
   {
     id: 4,
+    headTitle: "Rhinestone Headband",
+    mainTitle: "Rhinestone Headband 5",
+    info: "Rhinestone Headband",
     image: "/images/banner_image_5.png",
     buttons: [
       {
@@ -80,6 +86,9 @@ export const slides = [
   },
   {
     id: 5,
+    headTitle: "Rhinestone Headband",
+    mainTitle: "Rhinestone Headband 6",
+    info: "Rhinestone Headband",
     image: "/images/banner_image_6.png",
     buttons: [
       {
@@ -94,6 +103,9 @@ export const slides = [
   },
   {
     id: 6,
+    headTitle: "Rhinestone Headband",
+    mainTitle: "Rhinestone Headband 7",
+    info: "Rhinestone Headband",
     image: "/images/banner_image_7.png",
     buttons: [
       {
