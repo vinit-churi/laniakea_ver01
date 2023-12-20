@@ -64,6 +64,48 @@ export const slides = [
       },
     ],
   },
+  {
+    id: 4,
+    image: "/images/banner_image_5.png",
+    buttons: [
+      {
+        title: "Shop Now",
+        link: "/products",
+      },
+      {
+        title: "Learn more",
+        link: "/products",
+      },
+    ],
+  },
+  {
+    id: 5,
+    image: "/images/banner_image_6.png",
+    buttons: [
+      {
+        title: "Shop Now",
+        link: "/products",
+      },
+      {
+        title: "Learn more",
+        link: "/products",
+      },
+    ],
+  },
+  {
+    id: 6,
+    image: "/images/banner_image_7.png",
+    buttons: [
+      {
+        title: "Shop Now",
+        link: "/products",
+      },
+      {
+        title: "Learn more",
+        link: "/products",
+      },
+    ],
+  },
   //   {
   //     id: 5,
   //     title: "3 lorem ipsum dolor sit amet",

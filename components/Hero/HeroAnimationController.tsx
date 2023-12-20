@@ -9,7 +9,7 @@ import { Button } from "../ui/button";
 import Image from "next/image";
 const HeroAnimationController = () => {
   const [currentSlide, setCurrentSlide] = useState(1);
-  const numberOfSlides = 4;
+  const numberOfSlides = 7;
   const isBlocked = useRef(false);
 
   async function nextSlide() {
