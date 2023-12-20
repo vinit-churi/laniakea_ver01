@@ -45,22 +45,11 @@ const HeroCarouselIndicator = (props: TProps) => {
             exit={{
               opacity: 0,
               height: "0",
-              y:
-                item.id < props.currentSlide
-                  ? "-100%"
-                  : item.id > props.currentSlide
-                  ? "400%"
-                  : "0",
             }}
             initial={{
               opacity: 0,
               height: "0",
-              y:
-                item.id < props.currentSlide
-                  ? "-100%"
-                  : item.id > props.currentSlide
-                  ? "300%"
-                  : "0",
+              // y: index === 2 ? "90px" : "10px",
             }}
             animate={{ opacity: 1, height: "30px", y: `${100 * index}%` }}
             transition={{ duration: 0.3 }}
