@@ -13,10 +13,10 @@ const AppDownloadPrompt = () => {
       variants={variants}
       initial={false}
       animate={display ? "visible" : "hidden"}
-      className="bg-white h-[40px] flex justify-center max-[645px]:h-max max-[645px]:py-3"
+      className="bg-white h-[40px] flex justify-center max-[645px]:h-max "
     >
       <div className="text-[12px] flex justify-center items-center h-full max-w-[1024px] w-[90%] relative font-medium ">
-        <p className="flex max-[645px]:inline-block max-[645px]:pr-[40px]">
+        <p className="flex max-[645px]:inline-block max-[645px]:pr-[40px] max-[645px]:py-3">
           Download the Laniakea Store app available both on android and ios.{" "}
           <span className="flex text-primaryRegular">
             &nbsp;Download the App now.{" "}
