@@ -20,7 +20,7 @@ export default function Home() {
   return (
     <main className="">
       <AppDownloadPrompt />
-      <HeroSection />
+      {/* <HeroSection />
       <OccasionJewelrySpotlight />
       <Divider />
       <JewelryMagicDiscovery />
@@ -35,7 +35,7 @@ export default function Home() {
       <FAQ />
       <Testimonial />
       <QuickLinks />
-      <Footer />
+      <Footer /> */}
     </main>
   );
 }
