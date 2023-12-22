@@ -14,7 +14,6 @@ const LatestTrends = () => {
             src="/images/trends_01.webp"
             alt="jewelry"
             fill={true}
-            objectFit="cover"
             className="aspect-[3/4] rounded-2xl outline-2 outline-white outline"
           />
         </div>
@@ -23,7 +22,6 @@ const LatestTrends = () => {
             src="/images/trends_02.webp"
             alt="jewelry"
             fill={true}
-            objectFit="cover"
             className="object-center aspect-[3/4] rounded-2xl outline-2 outline-white outline"
           />
         </div>
@@ -32,7 +30,6 @@ const LatestTrends = () => {
             src="/images/trends_03.webp"
             alt="jewelry"
             fill={true}
-            objectFit="cover"
             className="object-center aspect-[3/4] rounded-2xl outline-2 outline-white outline"
           />
         </div>

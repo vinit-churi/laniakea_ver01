@@ -23,11 +23,11 @@ export default function Home() {
       <AppDownloadPrompt />
       <HeroSection />
       <OccasionJewelrySpotlight />
-       */}
       <Divider />
       <JewelryMagicDiscovery />
-      {/* 
+    */}
       <FadeOutCollection />
+      {/* 
       <LatestTrends />
       <SpotLight />
       <ShineTheDreams />

@@ -26,7 +26,6 @@ const SpotLight = () => {
             src="/images/spotlight_01.webp"
             alt="jewelry"
             fill={true}
-            objectFit="cover"
             className="rounded-2xl outline-2 outline-white outline"
           />
         </div>
@@ -36,7 +35,6 @@ const SpotLight = () => {
             src="/images/spotlight_03.webp"
             alt="jewelry"
             fill={true}
-            objectFit="cover"
             className="rounded-2xl outline-2 outline-white outline"
           />
         </div>
@@ -45,7 +43,6 @@ const SpotLight = () => {
             src="/images/spotlight_02.webp"
             alt="jewelry"
             fill={true}
-            objectFit="cover"
             className="rounded-2xl outline-2 outline-white outline"
           />
         </div>
