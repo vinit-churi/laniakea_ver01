@@ -16,6 +16,7 @@ import {
 } from "@/components/ui/navigation-menu";
 import Image from "next/image";
 import { Button } from "./ui/button";
+import MobileNav from "./MobileNav";
 
 const components: { title: string; href: string; description: string }[] = [
   {
@@ -199,14 +200,16 @@ function Navbar() {
           </Button>
         </div>
       </div>
-      <div className="py-4 max-w-[1024px] w-[90%] items-center mx-auto  grid-cols-[max-content_auto_max-content] hidden max-[1060px]:grid">
-        <Image
-          src="/images/mobile_menu_trigger.svg"
-          alt="logo"
-          width={24}
-          height={24}
-          className="cursor-pointer relative z-10 m-4"
-        />
+      <div className="py-4 max-w-[1024px] w-[100%] items-center mx-auto  grid-cols-[max-content_auto_max-content] hidden max-[1060px]:grid">
+        <MobileNav>
+          <Image
+            src="/images/mobile_menu_trigger.svg"
+            alt="logo"
+            width={24}
+            height={24}
+            className="cursor-pointer relative z-10 m-4"
+          />
+        </MobileNav>
         <Image
           src="/images/mobile_menu_trigger.png"
           alt="logo"
