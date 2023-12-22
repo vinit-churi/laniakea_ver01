@@ -20,7 +20,7 @@ const HeroImageSlider = (props: TProps) => {
           alt={`banner ${item.image}`}
           className={`${
             item.id === props.currentSlide ? "opacity-100" : "opacity-0"
-          } transition-opacity duration-1000 ease-in-out`}
+          } object-cover object-center transition-opacity duration-1000 ease-in-out`}
         />
       ))}
     </div>

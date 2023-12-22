@@ -20,12 +20,12 @@ export default function Home() {
   return (
     <main className="">
       {/*
+       */}
       <AppDownloadPrompt />
       <HeroSection />
       <OccasionJewelrySpotlight />
       <Divider />
       <JewelryMagicDiscovery />
-    */}
       <FadeOutCollection />
       {/* 
       <LatestTrends />
