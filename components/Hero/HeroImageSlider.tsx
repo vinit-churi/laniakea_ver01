@@ -16,7 +16,7 @@ const HeroImageSlider = (props: TProps) => {
         <Image
           key={item.id}
           src={item.image}
-          layout="fill"
+          fill
           alt={`banner ${item.image}`}
           className={`${
             item.id === props.currentSlide ? "opacity-100" : "opacity-0"

@@ -27,8 +27,8 @@ export default function Home() {
       <Divider />
       <JewelryMagicDiscovery />
       <FadeOutCollection />
-      {/* 
       <LatestTrends />
+      {/* 
       <SpotLight />
       <ShineTheDreams />
       <CraftsMenShip />
