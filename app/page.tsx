@@ -33,10 +33,10 @@ export default function Home() {
       <CraftsMenShip />
       <NewCollection />
       <DazzleYourself />
-      {/* 
       <StunningCollection />
       <FAQ />
       <Testimonial />
+      {/* 
       <QuickLinks />
       <Footer />  */}
     </main>
