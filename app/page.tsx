@@ -31,8 +31,8 @@ export default function Home() {
       <SpotLight />
       <ShineTheDreams />
       <CraftsMenShip />
-      {/* 
       <NewCollection />
+      {/* 
       <DazzleYourself />
       <StunningCollection />
       <FAQ />
