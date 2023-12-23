@@ -19,7 +19,6 @@ import Divider from "@/components/Divider";
 export default function Home() {
   return (
     <main className="">
-      {/*
       <AppDownloadPrompt />
       <HeroSection />
       <OccasionJewelrySpotlight />
@@ -35,10 +34,8 @@ export default function Home() {
       <StunningCollection />
       <FAQ />
       <Testimonial />
-       */}
       <QuickLinks />
-      {/* 
-      <Footer />  */}
+      <Footer />
     </main>
   );
 }
