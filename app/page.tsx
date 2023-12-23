@@ -29,8 +29,8 @@ export default function Home() {
       <FadeOutCollection />
       <LatestTrends />
       <SpotLight />
-      {/* 
       <ShineTheDreams />
+      {/* 
       <CraftsMenShip />
       <NewCollection />
       <DazzleYourself />
