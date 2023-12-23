@@ -32,8 +32,8 @@ export default function Home() {
       <ShineTheDreams />
       <CraftsMenShip />
       <NewCollection />
+      {/* <DazzleYourself /> */}
       {/* 
-      <DazzleYourself />
       <StunningCollection />
       <FAQ />
       <Testimonial />

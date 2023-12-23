@@ -38,7 +38,7 @@ const NewCollection = () => {
             fill={true}
             src="/images/collection_03.webp"
             alt="craftsmanship 3"
-            className="relative aspect-square w-full rounded-t-[16px] rounded-bl-[160px] rounded-br-[16px] rounded-tl-[70px] outline outline-2 outline-white max-[350px]:rounded-bl-lg max-[350px]:rounded-br-lg max-[350px]:rounded-tr-[70px]"
+            className="relative aspect-square w-full rounded-t-[16px] rounded-bl-[160px] rounded-br-[16px] rounded-tl-[70px] outline outline-2 outline-white max-[450px]:rounded-t-full"
           />
         </div>
         <div className="relative aspect-square w-full">
