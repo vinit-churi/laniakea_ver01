@@ -20,7 +20,6 @@ export default function Home() {
   return (
     <main className="">
       {/*
-       */}
       <AppDownloadPrompt />
       <HeroSection />
       <OccasionJewelrySpotlight />
@@ -36,8 +35,9 @@ export default function Home() {
       <StunningCollection />
       <FAQ />
       <Testimonial />
-      {/* 
+       */}
       <QuickLinks />
+      {/* 
       <Footer />  */}
     </main>
   );
