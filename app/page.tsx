@@ -28,8 +28,8 @@ export default function Home() {
       <JewelryMagicDiscovery />
       <FadeOutCollection />
       <LatestTrends />
-      {/* 
       <SpotLight />
+      {/* 
       <ShineTheDreams />
       <CraftsMenShip />
       <NewCollection />
