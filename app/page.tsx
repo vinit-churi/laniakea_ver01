@@ -30,8 +30,8 @@ export default function Home() {
       <LatestTrends />
       <SpotLight />
       <ShineTheDreams />
-      {/* 
       <CraftsMenShip />
+      {/* 
       <NewCollection />
       <DazzleYourself />
       <StunningCollection />
