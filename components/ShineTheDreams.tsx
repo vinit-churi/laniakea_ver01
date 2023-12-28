@@ -25,42 +25,42 @@ const ShineTheDreams = () => {
           alt="jewelry"
           width={320}
           height={320}
-          className="relative aspect-square w-full rounded-b-[16px] rounded-tl-[160px] rounded-tr-[16px] outline outline-2 outline-white  max-[500px]:rounded-tl-lg max-[500px]:rounded-tr-lg max-[500px]:rounded-bl-[70px] max-[500px]:rounded-br-lg" 
+          className="relative aspect-square w-full rounded-b-[16px] rounded-tl-[160px] rounded-tr-[16px] outline outline-2 outline-white  max-[500px]:rounded-bl-[70px] max-[500px]:rounded-br-lg max-[500px]:rounded-tl-lg max-[500px]:rounded-tr-lg"
         />
         <Image
           src="/images/dream_02.webp"
           alt="jewelry"
           width={320}
           height={320}
-          className="relative aspect-square w-full rounded-b-[16px] rounded-t-[160px] outline outline-2 outline-white  max-[500px]:rounded-tl-lg max-[500px]:rounded-tr-lg max-[500px]:rounded-bl-lg max-[500px]:rounded-br-[70px] "
+          className="relative aspect-square w-full rounded-b-[16px] rounded-t-[160px] outline outline-2 outline-white  max-[500px]:rounded-bl-lg max-[500px]:rounded-br-[70px] max-[500px]:rounded-tl-lg max-[500px]:rounded-tr-lg "
         />
         <Image
           src="/images/dream_03.webp"
           alt="jewelry"
           width={320}
           height={320}
-          className="relative aspect-square w-full rounded-b-[16px] rounded-tl-[160px] rounded-tr-[16px] outline outline-2 outline-white  max-[500px]:rounded-tl-[70px] max-[500px]:rounded-tr-lg max-[500px]:rounded-bl-[70px] max-[500px]:rounded-br-lg"
+          className="relative aspect-square w-full rounded-b-[16px] rounded-tl-[160px] rounded-tr-[16px] outline outline-2 outline-white  max-[500px]:rounded-bl-[70px] max-[500px]:rounded-br-lg max-[500px]:rounded-tl-[70px] max-[500px]:rounded-tr-lg"
         />
         <Image
           src="/images/dream_04.webp"
           alt="jewelry"
           width={320}
           height={320}
-          className="relative aspect-square w-full rounded-t-[16px] rounded-bl-[16px] rounded-br-[160px] outline outline-2 outline-white  max-[500px]:rounded-tl-lg max-[500px]:rounded-tr-[70px] max-[500px]:rounded-bl-lg max-[500px]:rounded-br-[70px] "
+          className="relative aspect-square w-full rounded-t-[16px] rounded-bl-[16px] rounded-br-[160px] outline outline-2 outline-white  max-[500px]:rounded-bl-lg max-[500px]:rounded-br-[70px] max-[500px]:rounded-tl-lg max-[500px]:rounded-tr-[70px] "
         />
         <Image
           src="/images/dream_05.webp"
           alt="jewelry"
           width={320}
           height={320}
-          className="relative aspect-square w-full rounded-b-[160px] rounded-t-[16px] outline outline-2 outline-white rounded-tl-[70px] max-[500px]:rounded-tr-lg max-[500px]:rounded-bl-lg max-[500px]:rounded-br-lg"
+          className="relative aspect-square w-full rounded-b-[160px] rounded-t-[16px] outline outline-2 outline-white max-[500px]:rounded-bl-lg max-[500px]:rounded-br-lg max-[500px]:rounded-tl-[70px] max-[500px]:rounded-tr-lg"
         />
         <Image
           src="/images/dream_06.webp"
           alt="jewelry"
           width={320}
           height={320}
-          className="relative aspect-square w-full rounded-t-[16px] rounded-bl-[160px] rounded-br-[16px] outline outline-2 outline-white max-[500px]:rounded-tl-lg max-[500px]:rounded-tr-[70px] max-[500px]:rounded-bl-lg max-[500px]:rounded-br-lg"
+          className="relative aspect-square w-full rounded-t-[16px] rounded-bl-[160px] rounded-br-[16px] outline outline-2 outline-white max-[500px]:rounded-bl-lg max-[500px]:rounded-br-lg max-[500px]:rounded-tl-lg max-[500px]:rounded-tr-[70px]"
         />
       </div>
       <Button className=" mx-auto flex h-[40px] w-[187px] items-center justify-center gap-2 rounded-full bg-primaryRegular transition-colors duration-300 ease-in-out hover:bg-primaryRegular/80">

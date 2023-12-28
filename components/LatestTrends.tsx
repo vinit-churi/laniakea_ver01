@@ -3,7 +3,7 @@ import React from "react";
 
 const LatestTrends = () => {
   return (
-    <div className="mx-auto my-[128px] flow-root w-[90%] max-w-[1024px]">
+    <div className="mx-auto my-[128px] flow-root w-[90%] max-w-[1024px] md:my-32">
       {/* Your component content goes here */}
       <div className="text-center text-[45px] font-normal leading-[52px] text-red-950 max-[725px]:mx-auto max-[725px]:w-72 max-[725px]:text-4xl max-[725px]:leading-[44px]">
         Discover The Latest Trends
