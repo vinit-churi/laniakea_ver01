@@ -1,4 +1,3 @@
-import AppDownloadPrompt from "@/components/Hero/AppDownloadPrompt";
 import CraftsMenShip from "@/components/CraftsMenShip";
 import DazzleYourself from "@/components/DazzleYourself";
 import FAQ from "@/components/FAQ";
