@@ -18,8 +18,7 @@ import Divider from "@/components/Divider";
 
 export default function Home() {
   return (
-    <main className="">
-      <AppDownloadPrompt />
+    <main className="absolute top-0 w-full">
       <HeroSection />
       <OccasionJewelrySpotlight />
       <Divider />

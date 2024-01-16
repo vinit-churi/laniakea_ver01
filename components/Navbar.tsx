@@ -17,6 +17,7 @@ import {
 import Image from "next/image";
 import { Button } from "./ui/button";
 import MobileNav from "./MobileNav";
+import AppDownloadPrompt from "./Hero/AppDownloadPrompt";
 
 const components: { title: string; href: string; description: string }[] = [
   {
@@ -59,18 +60,19 @@ const components: { title: string; href: string; description: string }[] = [
 function Navbar() {
   return (
     <>
-      <div className="py-4 max-w-[1024px] w-[90%] items-center mx-auto grid grid-cols-[max-content_auto_max-content] max-[1060px]:hidden">
+      <AppDownloadPrompt />
+      <div className="mx-auto grid w-[90%] max-w-[1024px] grid-cols-[max-content_auto_max-content] grid-rows-[max-content_max-content] items-center py-4 max-[1060px]:hidden">
         <Image
           src="/images/Laniakea.svg"
           alt="logo"
           width={133}
           height={40}
-          className="cursor-pointer relative z-10"
+          className="relative z-10 cursor-pointer"
         />
         <NavigationMenu className="pl-[32px]">
           <NavigationMenuList>
             <NavigationMenuItem>
-              <NavigationMenuTrigger className="bg-transparent text-white hover:text-white hover:bg-transparent">
+              <NavigationMenuTrigger className="bg-transparent text-white hover:bg-transparent hover:text-white">
                 Themed Jewelry
               </NavigationMenuTrigger>
               <NavigationMenuContent>
@@ -88,7 +90,7 @@ function Navbar() {
               </NavigationMenuContent>
             </NavigationMenuItem>
             <NavigationMenuItem>
-              <NavigationMenuTrigger className="bg-transparent text-white hover:text-white hover:bg-transparent">
+              <NavigationMenuTrigger className="bg-transparent text-white hover:bg-transparent hover:text-white">
                 All Categories
               </NavigationMenuTrigger>
               <NavigationMenuContent>
@@ -127,7 +129,7 @@ function Navbar() {
             </NavigationMenuItem>
 
             <NavigationMenuItem>
-              <NavigationMenuTrigger className="bg-transparent text-white hover:text-white hover:bg-transparent">
+              <NavigationMenuTrigger className="bg-transparent text-white hover:bg-transparent hover:text-white">
                 Customized
               </NavigationMenuTrigger>
               <NavigationMenuContent>
@@ -164,7 +166,7 @@ function Navbar() {
             </NavigationMenuItem>
           </NavigationMenuList>
         </NavigationMenu>
-        <div className=" relative z-10 flex gap-5 items-center ">
+        <div className=" relative z-10 flex items-center gap-5 ">
           <Image
             className="cursor-pointer"
             src="/images/search.svg"
@@ -187,7 +189,7 @@ function Navbar() {
             alt="web"
           />
           <Button
-            className=" bg-primaryRegular hover:text-white hover:scale-105  text-white transition-[colors_scale] duration-300 ease-in-out hover:bg-primaryRegular/80 rounded-full w-[115px] h-[44px] flex items-center justify-center gap-2"
+            className=" flex h-[44px] w-[115px]  items-center justify-center gap-2 rounded-full bg-primaryRegular text-white transition-[colors_scale] duration-300 ease-in-out hover:scale-105 hover:bg-primaryRegular/80 hover:text-white"
             variant="ghost"
           >
             <Image
@@ -200,14 +202,14 @@ function Navbar() {
           </Button>
         </div>
       </div>
-      <div className="py-4 max-w-[1024px] w-[100%] items-center mx-auto  grid-cols-[max-content_auto_max-content] hidden max-[1060px]:grid">
+      <div className="mx-auto hidden w-[100%] max-w-[1024px] grid-cols-[max-content_auto_max-content]  items-center py-4 max-[1060px]:grid">
         <MobileNav>
           <Image
             src="/images/mobile_menu_trigger.svg"
             alt="logo"
             width={24}
             height={24}
-            className="cursor-pointer relative z-10 m-4"
+            className="relative z-10 m-4 cursor-pointer"
           />
         </MobileNav>
         <Image
@@ -215,14 +217,14 @@ function Navbar() {
           alt="logo"
           width={133}
           height={40}
-          className="cursor-pointer relative z-10 mx-auto block"
+          className="relative z-10 mx-auto block cursor-pointer"
         />
         <Image
           src="/images/vertical_3_dots.svg"
           alt="logo"
           width={24}
           height={24}
-          className="cursor-pointer relative z-50 m-4"
+          className="relative z-50 m-4 cursor-pointer"
         />
       </div>
     </>
@@ -240,7 +242,7 @@ const ListItem = React.forwardRef<
           ref={ref}
           className={cn(
             "block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground",
-            className
+            className,
           )}
           {...props}
         >
