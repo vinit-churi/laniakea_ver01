@@ -11,8 +11,30 @@ import MatchingAttire from "@/components/ThemedJewelry/MatchingAttire";
 const page = () => {
   return (
     <div>
-      <div className="relative aspect-[16/9] w-full">
-        <Image fill src="/images/themed_hero.webp" alt="theme hero" />
+      <div className="relative aspect-[16/9] max-h-[720px] w-full">
+        <Image
+          fill
+          src="/images/themed_hero.webp"
+          alt="theme hero"
+          className="object-cover"
+        />
+        <div className="absolute left-0 right-0 top-1/2 mx-auto translate-y-[-100%] text-center text-[45px] font-normal leading-[52px] text-red-950">
+          Themed Jewelry
+        </div>
+        <svg className="absolute bottom-20 left-0 right-0 mx-auto translate-x-[100px]">
+          <path
+            className="animate-arrow fill-transparent stroke-current stroke-1 text-black delay-1000"
+            d="M0 0 L30 32 L60 0"
+          ></path>
+          <path
+            className="animate-arrow fill-transparent stroke-current stroke-1 text-black delay-500"
+            d="M0 20 L30 52 L60 20"
+          ></path>
+          <path
+            className="animate-arrow fill-transparent stroke-current stroke-1 text-black"
+            d="M0 40 L30 72 L60 40"
+          ></path>
+        </svg>
       </div>
       <div>
         <div className="mx-auto w-[90%] max-w-[1024px] py-32">
