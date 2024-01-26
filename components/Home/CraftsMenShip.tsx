@@ -3,7 +3,10 @@ import React from "react";
 
 const CraftsMenShip = () => {
   return (
-    <div className="mx-auto w-[90%] max-w-[1024px] py-[192px] max-[1100px]:flex max-[1100px]:flex-col max-[1100px]:gap-16 max-[1100px]:py-16">
+    <div
+      id="craftsmanship"
+      className="mx-auto w-[90%] max-w-[1024px] py-[192px] max-[1100px]:flex max-[1100px]:flex-col max-[1100px]:gap-16 max-[1100px]:py-16"
+    >
       <div className="mb-16 flex justify-between max-[1100px]:mb-0 max-[1100px]:flex-col">
         <Image
           width={480}

@@ -286,3 +286,155 @@ export const MaterialCategories = [
     imgSrc: "/images/material_16.webp",
   },
 ];
+
+export const OccasionCategories = [
+  {
+    id: 301,
+    title: "Wedding",
+    imgSrc: "/images/occasion_1.webp",
+  },
+  {
+    id: 302,
+    title: "Party",
+    imgSrc: "/images/occasion_2.webp",
+  },
+  {
+    id: 303,
+    title: "Conference",
+    imgSrc: "/images/occasion_3.webp",
+  },
+  {
+    id: 304,
+    title: "Bridesmaid",
+    imgSrc: "/images/occasion_4.webp",
+  },
+  {
+    id: 305,
+    title: "Mehndi",
+    imgSrc: "/images/occasion_5.webp",
+  },
+  {
+    id: 306,
+    title: "Sangeet",
+    imgSrc: "/images/occasion_6.webp",
+  },
+  {
+    id: 307,
+    title: "Haldi",
+    imgSrc: "/images/occasion_7.webp",
+  },
+  {
+    id: 308,
+    title: "Reception",
+    imgSrc: "/images/occasion_8.webp",
+  },
+  {
+    id: 309,
+    title: "Date",
+    imgSrc: "/images/occasion_9.webp",
+  },
+  {
+    id: 310,
+    title: "Communion",
+    imgSrc: "/images/occasion_10.webp",
+  },
+  {
+    id: 311,
+    title: "Movie",
+    imgSrc: "/images/occasion_11.webp",
+  },
+  {
+    id: 312,
+    title: "Groomsmen",
+    imgSrc: "/images/occasion_12.webp",
+  },
+  {
+    id: 313,
+    title: "Pooja",
+    imgSrc: "/images/occasion_13.webp",
+  },
+  {
+    id: 314,
+    title: "Honeymoon",
+    imgSrc: "/images/occasion_14.webp",
+  },
+  {
+    id: 315,
+    title: "Engagement",
+    imgSrc: "/images/occasion_15.webp",
+  },
+  {
+    id: 316,
+    title: "Vacation",
+    imgSrc: "/images/occasion_16.webp",
+  },
+];
+
+export const themeSet1 = [
+  {
+    id: 501,
+    title: "Butterfly Earrings",
+    imgSrc: "/images/theme_set_1_child_1.webp",
+  },
+  {
+    id: 502,
+    title: "Velvet t-shirt",
+    imgSrc: "/images/theme_set_1_child_2.webp",
+  },
+  {
+    id: 503,
+    title: "Fur Coat",
+    imgSrc: "/images/theme_set_1_child_3.webp",
+  },
+  {
+    id: 504,
+    title: "Leather Skirt",
+    imgSrc: "/images/theme_set_1_child_4.webp",
+  },
+];
+
+export const themeSet2 = [
+  {
+    id: 601,
+    title: "Coin Necklace",
+    imgSrc: "/images/theme_set_2_child_1.webp",
+  },
+  {
+    id: 602,
+    title: "Velvet Undervest",
+    imgSrc: "/images/theme_set_2_child_2.webp",
+  },
+  {
+    id: 603,
+    title: "Belt",
+    imgSrc: "/images/theme_set_2_child_3.webp",
+  },
+  {
+    id: 604,
+    title: "Black Skirt",
+    imgSrc: "/images/theme_set_2_child_4.webp",
+  },
+];
+
+export const themeSet3 = [
+  {
+    id: 701,
+    title: "Necklace",
+    imgSrc: "/images/theme_set_3_child_1.webp",
+  },
+  {
+    id: 702,
+    title: "Bangles",
+    imgSrc: "/images/theme_set_3_child_2.webp",
+  },
+  {
+    id: 703,
+    title: "Shawl",
+    imgSrc: "/images/theme_set_3_child_3.webp",
+  },
+  {
+    id: 704,
+    title: "Dress",
+    imgSrc: "/images/theme_set_3_child_4.webp",
+  },
+];

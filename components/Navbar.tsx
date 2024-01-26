@@ -61,7 +61,7 @@ function Navbar() {
     <div className="">
       <AppDownloadPrompt />
       <div
-        className={`${pathname === "/all-categories" ? "bg-[#3E0500]" : null}`}
+        className={`${pathname === "/" ? "bg-transparent" : "bg-[#3E0500]"}`}
       >
         <div
           className={`mx-auto grid w-[90%] max-w-[1024px] grid-cols-[max-content_auto_max-content] grid-rows-[max-content_max-content] items-center py-4 max-[1060px]:hidden `}
@@ -79,7 +79,7 @@ function Navbar() {
             <NavigationMenuList>
               <NavigationMenuItem>
                 <NavigationMenuTrigger className="bg-transparent text-white hover:bg-transparent hover:text-white">
-                  Explore
+                  <Link href="/all-categories">Explore</Link>
                 </NavigationMenuTrigger>
                 <NavigationMenuContent>
                   <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
@@ -98,7 +98,7 @@ function Navbar() {
 
               <NavigationMenuItem>
                 <NavigationMenuTrigger className="bg-transparent text-white hover:bg-transparent hover:text-white">
-                  Themed jewelry
+                  <Link href="/themed-jewelry">Themed jewelry</Link>
                 </NavigationMenuTrigger>
                 <NavigationMenuContent>
                   <ul className="grid gap-3 p-6 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]">
@@ -106,7 +106,7 @@ function Navbar() {
                       <NavigationMenuLink asChild>
                         <Link
                           className="flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-muted/50 to-muted p-6 no-underline outline-none focus:shadow-md"
-                          href="/"
+                          href=""
                         >
                           <div className="mb-2 mt-4 text-lg font-medium">
                             shadcn/ui
@@ -126,17 +126,14 @@ function Navbar() {
                     <ListItem href="/docs/installation" title="Installation">
                       How to install dependencies and structure your app.
                     </ListItem>
-                    <ListItem
-                      href="/docs/primitives/typography"
-                      title="Typography"
-                    >
-                      Styles for headings, paragraphs, lists...etc
+                    <ListItem href="/themed-jewelry" title="Explore all theme">
+                      Styles for wedding, marriage, honeymoon ...etc
                     </ListItem>
                   </ul>
                 </NavigationMenuContent>
               </NavigationMenuItem>
               <NavigationMenuItem>
-                <Link href="/" legacyBehavior passHref>
+                <Link href="/#craftsmanship" legacyBehavior passHref>
                   <NavigationMenuLink
                     className={`${navigationMenuTriggerStyle()} bg-transparent text-white hover:bg-transparent hover:text-white`}
                   >
