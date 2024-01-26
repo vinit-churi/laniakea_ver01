@@ -3,7 +3,7 @@ import DazzleYourself from "@/components/Home/DazzleYourself";
 import FAQ from "@/components/Home/FAQ";
 import FadeOutCollection from "@/components/Home/FadeOutCollection";
 import Footer from "@/components/Home/Footer";
-import HeroSection from "@/components/Hero/HeroSection";
+import HeroSection from "@/components/Home/Hero/HeroSection";
 import JewelryMagicDiscovery from "@/components/Home/JewelryMagicDiscovery";
 import LatestTrends from "@/components/Home/LatestTrends";
 import NewCollection from "@/components/Home/NewCollection";

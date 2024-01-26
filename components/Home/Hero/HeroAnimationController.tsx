@@ -5,7 +5,7 @@ import { useRef } from "react";
 import HeroCarouselIndicator from "./HeroCarouselIndicator";
 import HeroCarouselTitle from "./HeroCarouselTitle";
 import { useState } from "react";
-import { Button } from "../ui/button";
+import { Button } from "@/components/ui/button";
 import Image from "next/image";
 const HeroAnimationController = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -40,7 +40,7 @@ const HeroAnimationController = () => {
       <HeroCarouselTitle currentSlide={currentSlide} />
       <Button
         onClick={prevSlide}
-        className="absolute top-1/2 left-[15px] w-[34px] h-[34px] bg-white bg-opacity-60 rounded-full backdrop-blur-[6px] p-0 hover:bg-white transition-colors ease-in-out duration-300"
+        className="absolute left-[15px] top-1/2 h-[34px] w-[34px] rounded-full bg-white bg-opacity-60 p-0 backdrop-blur-[6px] transition-colors duration-300 ease-in-out hover:bg-white"
       >
         <Image
           src="/images/keyboard_arrow_left.svg"
@@ -51,7 +51,7 @@ const HeroAnimationController = () => {
       </Button>
       <Button
         onClick={nextSlide}
-        className="absolute top-1/2 right-[15px] w-[34px] h-[34px] bg-white bg-opacity-60 rounded-full backdrop-blur-[6px] p-0 hover:bg-white transition-colors ease-in-out duration-300"
+        className="absolute right-[15px] top-1/2 h-[34px] w-[34px] rounded-full bg-white bg-opacity-60 p-0 backdrop-blur-[6px] transition-colors duration-300 ease-in-out hover:bg-white"
       >
         <Image
           src="/images/keyboard_arrow_right.svg"

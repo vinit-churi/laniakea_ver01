@@ -1,5 +1,4 @@
-﻿import Navbar from "../Navbar";
-import HeroAnimationController from "./HeroAnimationController";
+﻿import HeroAnimationController from "./HeroAnimationController";
 
 const HeroSection = () => {
   return (

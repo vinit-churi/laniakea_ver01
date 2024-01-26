@@ -1,11 +1,8 @@
 "use client";
-import React, { useEffect } from "react";
+import React from "react";
 import Image from "next/image";
-// import { THeroSliderItem } from "@/types/types";
 import { slides } from "@/constants/Slider";
-import { motion, AnimatePresence } from "framer-motion";
 type TProps = {
-  // slides: THeroSliderItem[];
   currentSlide: number;
 };
 
