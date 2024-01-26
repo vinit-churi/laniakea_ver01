@@ -59,12 +59,11 @@ const components: { title: string; href: string; description: string }[] = [
 
 function Navbar() {
   const pathname = usePathname();
-  console.log(pathname);
   return (
     <div className="">
       <AppDownloadPrompt />
       <div
-        className={`${pathname === "/all-categories" ? "bg-[#3E0500]" : ""}`}
+        className={`${pathname === "/all-categories" ? "bg-[#3E0500]" : null}`}
       >
         <div
           className={`mx-auto grid w-[90%] max-w-[1024px] grid-cols-[max-content_auto_max-content] grid-rows-[max-content_max-content] items-center py-4 max-[1060px]:hidden `}
@@ -98,43 +97,45 @@ function Navbar() {
                   </ul>
                 </NavigationMenuContent>
               </NavigationMenuItem>
+
               <NavigationMenuItem>
                 <NavigationMenuTrigger className="bg-transparent text-white hover:bg-transparent hover:text-white">
-                  All Categories
+                  Themed jewelry
                 </NavigationMenuTrigger>
                 <NavigationMenuContent>
-                  <ul className="flex h-max w-max gap-4 p-4">
-                    <li className="h-[300px] w-[300px]">
+                  <ul className="grid gap-3 p-6 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]">
+                    <li className="row-span-3">
                       <NavigationMenuLink asChild>
-                        <Link
+                        <a
                           className="flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-muted/50 to-muted p-6 no-underline outline-none focus:shadow-md"
                           href="/"
                         >
-                          {/* <Icons.logo className="h-6 w-6" /> */}
                           <div className="mb-2 mt-4 text-lg font-medium">
                             shadcn/ui
                           </div>
                           <p className="text-sm leading-tight text-muted-foreground">
-                            Beautifully designed components built with Radix UI
-                            and Tailwind CSS.
+                            Beautifully designed components that you can copy
+                            and paste into your apps. Accessible. Customizable.
+                            Open Source.
                           </p>
-                        </Link>
+                        </a>
                       </NavigationMenuLink>
                     </li>
-                    <li className="w-[600px] self-stretch bg-purple-50">
-                      temp container
-                    </li>
+                    <ListItem href="/docs" title="Introduction">
+                      Re-usable components built using Radix UI and Tailwind
+                      CSS.
+                    </ListItem>
+                    <ListItem href="/docs/installation" title="Installation">
+                      How to install dependencies and structure your app.
+                    </ListItem>
+                    <ListItem
+                      href="/docs/primitives/typography"
+                      title="Typography"
+                    >
+                      Styles for headings, paragraphs, lists...etc
+                    </ListItem>
                   </ul>
                 </NavigationMenuContent>
-              </NavigationMenuItem>
-              <NavigationMenuItem>
-                <Link href="/" legacyBehavior passHref>
-                  <NavigationMenuLink
-                    className={`${navigationMenuTriggerStyle()} bg-transparent text-white hover:bg-transparent hover:text-white`}
-                  >
-                    Themed jewelry
-                  </NavigationMenuLink>
-                </Link>
               </NavigationMenuItem>
               <NavigationMenuItem>
                 <Link href="/" legacyBehavior passHref>
