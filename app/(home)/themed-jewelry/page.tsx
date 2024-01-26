@@ -7,6 +7,7 @@ import {
   themeSet2,
   themeSet3,
 } from "@/constants/Categories";
+import MatchingAttire from "@/components/ThemedJewelry/MatchingAttire";
 const page = () => {
   return (
     <div>
@@ -82,37 +83,21 @@ const page = () => {
           create a cohesive and eye-catching look that tells a story.
         </div>
       </div>
-      <div className="mx-auto flex w-[90%] max-w-[1024px] gap-16 py-4">
-        <div className="relative aspect-[9/16] flex-[1_1_60%] rounded-lg">
-          <Image
-            src="/images/theme_set_parent1.webp"
-            fill
-            alt="theme hero"
-            className="object-cover"
-          />
-        </div>
-        <div className="grid flex-[1_1_40%] grid-rows-4 gap-8 rounded-[32px] bg-rose-200 p-8">
-          {themeSet1.map((item) => (
-            <div
-              key={item.id}
-              className="flex h-auto w-full cursor-pointer flex-col transition-all duration-300 ease-in-out hover:scale-105"
-            >
-              <div className="relative h-full w-full ">
-                <Image
-                  src={item.imgSrc}
-                  layout="fill"
-                  objectFit="contain"
-                  alt={item.title}
-                  className=""
-                />
-              </div>
-              <div className="text-center text-sm font-medium leading-tight text-red-950">
-                {item.title}
-              </div>
-            </div>
-          ))}
-        </div>
-      </div>
+      <MatchingAttire
+        leftImage="/images/theme_set_parent1.webp"
+        className="bg-rose-200"
+        themeSet={themeSet1}
+      />
+      <MatchingAttire
+        leftImage="/images/theme_set_parent2.webp"
+        className="bg-neutral-200"
+        themeSet={themeSet2}
+      />
+      <MatchingAttire
+        leftImage="/images/theme_set_parent3.webp"
+        className="bg-rose-200"
+        themeSet={themeSet3}
+      />
     </div>
   );
 };
