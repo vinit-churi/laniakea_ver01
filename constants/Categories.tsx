@@ -120,3 +120,169 @@ export const CommunityFooterLinks = [
     label: "Instagram",
   },
 ];
+
+export const ProductCategories = [
+  {
+    id: 101,
+    title: "Earrings",
+    imgSrc: "/images/category_1.webp",
+  },
+  {
+    id: 102,
+    title: "Cocktail Ring",
+    imgSrc: "/images/category_2.webp",
+  },
+  {
+    id: 103,
+    title: "Necklace",
+    imgSrc: "/images/category_3.webp",
+  },
+  {
+    id: 104,
+    title: "Bangle",
+    imgSrc: "/images/category_4.webp",
+  },
+  {
+    id: 105,
+    title: "Mangal Sutra",
+    imgSrc: "/images/category_5.webp",
+  },
+  {
+    id: 106,
+    title: "Chain",
+    imgSrc: "/images/category_6.webp",
+  },
+  {
+    id: 107,
+    title: "Engagement Ring",
+    imgSrc: "/images/category_7.webp",
+  },
+  {
+    id: 108,
+    title: "Bracelet",
+    imgSrc: "/images/category_8.webp",
+  },
+  {
+    id: 109,
+    title: "Elf Ear Cuffs",
+    imgSrc: "/images/category_9.webp",
+  },
+  {
+    id: 110,
+    title: "Wedding Rings",
+    imgSrc: "/images/category_10.webp",
+  },
+  {
+    id: 111,
+    title: "Anklets",
+    imgSrc: "/images/category_11.webp",
+  },
+  {
+    id: 112,
+    title: "Brooch",
+    imgSrc: "/images/category_12.webp",
+  },
+  {
+    id: 113,
+    title: "Solitaire Ring",
+    imgSrc: "/images/category_13.webp",
+  },
+  {
+    id: 114,
+    title: "Toe Ring",
+    imgSrc: "/images/category_14.webp",
+  },
+  {
+    id: 115,
+    title: "Medallion",
+    imgSrc: "/images/category_15.webp",
+  },
+  {
+    id: 116,
+    title: "Hairpin",
+    imgSrc: "/images/category_16.webp",
+  },
+];
+
+export const MaterialCategories = [
+  {
+    id: 201,
+    title: "Gold",
+    imgSrc: "/images/material_1.webp",
+  },
+  {
+    id: 202,
+    title: "Natural Diamonds",
+    imgSrc: "/images/material_2.webp",
+  },
+  {
+    id: 203,
+    title: "Platinum",
+    imgSrc: "/images/material_3.webp",
+  },
+  {
+    id: 204,
+    title: "Titanium",
+    imgSrc: "/images/material_4.webp",
+  },
+  {
+    id: 205,
+    title: "Pearls",
+    imgSrc: "/images/material_5.webp",
+  },
+  {
+    id: 206,
+    title: "Opal",
+    imgSrc: "/images/material_6.webp",
+  },
+  {
+    id: 207,
+    title: "CVD Lab Grown Diamonds",
+    imgSrc: "/images/material_7.webp",
+  },
+  {
+    id: 208,
+    title: "HPHT Lab Grown Diamonds",
+    imgSrc: "/images/material_8.webp",
+  },
+  {
+    id: 209,
+    title: "Silver",
+    imgSrc: "/images/material_9.webp",
+  },
+  {
+    id: 210,
+    title: "Jade",
+    imgSrc: "/images/material_10.webp",
+  },
+  {
+    id: 211,
+    title: "Sapphire",
+    imgSrc: "/images/material_11.webp",
+  },
+  {
+    id: 212,
+    title: "Fluorite Crystal",
+    imgSrc: "/images/material_12.webp",
+  },
+  {
+    id: 213,
+    title: "Emerald",
+    imgSrc: "/images/material_13.webp",
+  },
+  {
+    id: 214,
+    title: "Ruby",
+    imgSrc: "/images/material_14.webp",
+  },
+  {
+    id: 215,
+    title: "Blue Topaz",
+    imgSrc: "/images/material_15.webp",
+  },
+  {
+    id: 216,
+    title: "Amethyst",
+    imgSrc: "/images/material_16.webp",
+  },
+];

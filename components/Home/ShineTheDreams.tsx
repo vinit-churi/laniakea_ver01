@@ -1,6 +1,6 @@
 ﻿import React from "react";
 import Image from "next/image";
-import { Button } from "./ui/button";
+import { Button } from "../ui/button";
 const ShineTheDreams = () => {
   return (
     <div className="flow-root bg-primaryBackground py-[128px] ">
