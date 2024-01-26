@@ -2,9 +2,7 @@
 
 import * as React from "react";
 import Link from "next/link";
-
 import { cn } from "@/lib/utils";
-// import { Icons } from "@/components/icons";
 import {
   NavigationMenu,
   NavigationMenuContent,
@@ -15,9 +13,9 @@ import {
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu";
 import Image from "next/image";
-import { Button } from "./ui/button";
-import MobileNav from "./MobileNav";
-import AppDownloadPrompt from "./Hero/AppDownloadPrompt";
+import { Button } from "@/components/ui/button";
+import MobileNav from "@/components/MobileNav";
+import AppDownloadPrompt from "@/components/Home/Hero/AppDownloadPrompt";
 import { usePathname } from "next/navigation";
 
 const components: { title: string; href: string; description: string }[] = [
