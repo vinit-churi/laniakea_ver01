@@ -1,9 +1,9 @@
 "use client";
 import React from "react";
-import HeroImageSlider from "./HeroImageSlider";
+import HeroImageSlider from "@/components/Home/Hero/HeroImageSlider";
 import { useRef } from "react";
-import HeroCarouselIndicator from "./HeroCarouselIndicator";
-import HeroCarouselTitle from "./HeroCarouselTitle";
+import HeroCarouselIndicator from "@/components/Home/Hero/HeroCarouselIndicator";
+import HeroCarouselTitle from "@/components/Home/Hero/HeroCarouselTitle";
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";

@@ -7,7 +7,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
-import Divider from "./Divider";
+import Divider from "@/components/Home/Divider";
 
 const FAQ = () => {
   return (

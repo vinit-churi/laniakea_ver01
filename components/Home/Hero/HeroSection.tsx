@@ -1,4 +1,4 @@
-﻿import HeroAnimationController from "./HeroAnimationController";
+﻿import HeroAnimationController from "@/components/Home/Hero/HeroAnimationController";
 
 const HeroSection = () => {
   return (

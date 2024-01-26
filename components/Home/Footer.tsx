@@ -3,7 +3,7 @@ import { Button } from "../ui/button";
 import Image from "next/image";
 import { Input } from "@/components/ui/input";
 
-import Divider from "./Divider";
+import Divider from "@/components/Home/Divider";
 import {
   CommunityFooterLinks,
   CooperationFooterLinks,
