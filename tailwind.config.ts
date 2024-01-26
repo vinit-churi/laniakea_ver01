@@ -19,6 +19,7 @@ module.exports = {
       colors: {
         primaryBackground: "#FFDAD3",
         primaryRegular: "#9C4330",
+        lightPink: "#FFDAD3",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
