@@ -11,7 +11,7 @@ const Materials = () => {
       <div className="mb-4 text-center text-[45px] font-normal leading-[52px] text-red-950">
         Explore By Material
       </div>
-      <div className="w-[1024px] text-justify text-sm font-normal leading-tight text-red-950">
+      <div className="w-full text-justify text-sm font-normal leading-tight text-red-950">
         When it comes to jewelry, there is no one-size-fits-all material. The
         materials used to craft these treasures play a vital role in their
         value, durability, and aesthetic appeal. <br />

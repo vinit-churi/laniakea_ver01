@@ -11,7 +11,7 @@ const Categories = () => {
       <div className="mb-4 text-center text-[45px] font-normal leading-[52px] text-red-950">
         Explore By Category
       </div>
-      <div className="mt-5 w-[1024px] text-justify text-sm font-normal leading-tight text-red-950">
+      <div className="mt-5 w-full text-justify text-sm font-normal leading-tight text-red-950">
         Adorn your world with exquisite artistry, one piece at a time. Whether
         you&apos;re a classic charm seeker or a trendsetting trailblazer, our
         curated collections cater to every desire. <br />
