@@ -21,7 +21,7 @@ const MatchingAttire = ({
 }: TMatchingAttire) => {
   return (
     <>
-      <div className="mx-auto flex w-[90%] max-w-[1024px] gap-16 py-4">
+      <div className="mx-auto flex w-[90%] max-w-[1024px] gap-16 py-4 max-[800px]:gap-4">
         <div className="relative aspect-[9/16] flex-[1_1_60%] rounded-lg">
           <Image
             src={leftImage}

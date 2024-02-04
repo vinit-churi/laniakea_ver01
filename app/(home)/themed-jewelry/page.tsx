@@ -36,7 +36,7 @@ const page = () => {
           ></path>
         </svg>
       </div>
-      {/* <div>
+      <div>
         <div className="mx-auto w-[90%] max-w-[1024px] py-32">
           <div className="text-center text-base font-medium leading-normal text-orange-800">
             DIVE INTO DAZZLING DELIGHTS
@@ -44,7 +44,7 @@ const page = () => {
           <div className="mb-4 text-center text-[45px] font-normal leading-[52px] text-red-950">
             Explore By Category
           </div>
-          <div className="mt-5 w-[1024px] text-justify text-sm font-normal leading-tight text-red-950">
+          <div className="mt-5 w-[90%] max-w-[1024px] text-justify text-sm font-normal leading-tight text-red-950">
             Adorn your world with exquisite artistry, one piece at a time.
             Whether you&apos;re a classic charm seeker or a trendsetting
             trailblazer, our curated collections cater to every desire. <br />
@@ -63,7 +63,7 @@ const page = () => {
             story. Explore by category, and let your inner star shine!
           </div>
           <div>
-            <div className="my-8 grid grid-cols-4 gap-8">
+            <div className="my-8 grid grid-cols-4 gap-8 max-[810px]:grid-cols-3 max-[600px]:grid-cols-2 max-[375px]:grid-cols-1">
               {OccasionCategories.map((category) => (
                 <div
                   key={category.id}
@@ -90,13 +90,13 @@ const page = () => {
         </div>
       </div>
       <div className="mx-auto w-[90%] max-w-[1024px] py-32">
-        <div className="w-[1024px] text-center text-base font-medium leading-normal text-orange-800">
+        <div className="w-[1024px] max-w-full text-center text-base font-medium leading-normal text-orange-800">
           BEAUTIFULL JEWELRY FLAVORS
         </div>
-        <div className="mb-4 w-[1024px] text-center text-[45px] font-normal leading-[52px] text-red-950">
+        <div className="mb-4 w-[1024px] max-w-full text-center text-[45px] font-normal leading-[52px] text-red-950">
           Themed Jewelry Matching The Attire
         </div>
-        <div className="w-[1024px] text-justify text-sm font-normal leading-tight text-red-950">
+        <div className="w-[1024px] max-w-full text-justify text-sm font-normal leading-tight text-red-950">
           Jewelry isn&apos;t just an accessory; it&apos;s an extension of your
           personality and a way to express your unique style. But sometimes,
           choosing the right piece to complement your outfit can feel like a
@@ -119,7 +119,7 @@ const page = () => {
         leftImage="/images/theme_set_parent3.webp"
         className="bg-rose-200"
         themeSet={themeSet3}
-      /> */}
+      />
     </div>
   );
 };
