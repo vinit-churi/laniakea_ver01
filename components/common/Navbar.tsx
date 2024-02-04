@@ -14,7 +14,7 @@ import {
 } from "@/components/ui/navigation-menu";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
-import MobileNav from "@/components/MobileNav";
+import MobileNav from "@/components/common/MobileNav";
 import AppDownloadPrompt from "@/components/Home/Hero/AppDownloadPrompt";
 import { usePathname } from "next/navigation";
 
