@@ -10,8 +10,8 @@ import {
 import MatchingAttire from "@/components/ThemedJewelry/MatchingAttire";
 const page = () => {
   return (
-    <div className="max-[1060px]:absolute max-[1060px]:top-0">
-      <div className="relative aspect-[16/9] max-h-[720px] w-full">
+    <div className="">
+      <div className="relative aspect-[16/9] max-h-[720px] min-h-[400px] w-full overflow-hidden">
         <Image
           fill
           src="/images/themed_hero.webp"
@@ -21,7 +21,7 @@ const page = () => {
         <div className="absolute left-0 right-0 top-1/2 mx-auto translate-y-[-100%] text-center text-[45px] font-normal leading-[52px] text-red-950">
           Themed Jewelry
         </div>
-        <svg className="absolute bottom-20 left-0 right-0 mx-auto translate-x-[100px]">
+        <svg className="absolute bottom-[5%] left-0 right-0 mx-auto translate-x-[100px]">
           <path
             className="animate-arrow fill-transparent stroke-current stroke-1 text-black delay-1000"
             d="M0 0 L30 32 L60 0"
@@ -36,7 +36,7 @@ const page = () => {
           ></path>
         </svg>
       </div>
-      <div>
+      {/* <div>
         <div className="mx-auto w-[90%] max-w-[1024px] py-32">
           <div className="text-center text-base font-medium leading-normal text-orange-800">
             DIVE INTO DAZZLING DELIGHTS
@@ -119,7 +119,7 @@ const page = () => {
         leftImage="/images/theme_set_parent3.webp"
         className="bg-rose-200"
         themeSet={themeSet3}
-      />
+      /> */}
     </div>
   );
 };
