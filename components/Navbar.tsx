@@ -72,7 +72,7 @@ function Navbar() {
               alt="logo"
               width={133}
               height={40}
-              className="relative z-10 cursor-pointer"
+              className={`relative z-10 cursor-pointer `}
             />
           </Link>
           <NavigationMenu className="pl-[32px]">
@@ -189,7 +189,11 @@ function Navbar() {
           </div>
         </div>
       </div>
-      <div className="mx-auto hidden w-[100%] max-w-[1024px] grid-cols-[max-content_auto_max-content]  items-center py-4 max-[1060px]:grid">
+      <div
+        className={`mx-auto hidden w-[100%] max-w-[1024px] grid-cols-[max-content_auto_max-content]  items-center py-4 max-[1060px]:grid ${
+          pathname !== "/" ? "relative z-10 bg-[#3E0500]" : ""
+        }`}
+      >
         <MobileNav>
           <Image
             src="/images/mobile_menu_trigger.svg"

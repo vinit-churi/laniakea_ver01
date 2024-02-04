@@ -21,7 +21,7 @@ const Materials = () => {
         is a great way to narrow down your options.
       </div>
       <div>
-        <div className="my-8 grid grid-cols-4 gap-8">
+        <div className="my-8 grid grid-cols-4 gap-8 max-[810px]:grid-cols-3 max-[600px]:grid-cols-2 max-[375px]:grid-cols-1">
           {MaterialCategories.map((category) => (
             <div
               key={category.id}

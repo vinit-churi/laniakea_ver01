@@ -10,7 +10,7 @@ import {
 import MatchingAttire from "@/components/ThemedJewelry/MatchingAttire";
 const page = () => {
   return (
-    <div>
+    <div className="max-[1060px]:absolute max-[1060px]:top-0">
       <div className="relative aspect-[16/9] max-h-[720px] w-full">
         <Image
           fill
