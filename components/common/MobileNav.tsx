@@ -10,8 +10,12 @@ import {
 import Link from "next/link";
 
 const MobileNav = ({ children }: { children: React.ReactElement }) => {
+  const [isOpen, setIsOpen] = React.useState(false);
+  function handleChange() {
+    setIsOpen(!isOpen);
+  }
   return (
-    <Sheet>
+    <Sheet open={isOpen} onOpenChange={handleChange}>
       <SheetTrigger>{children}</SheetTrigger>
       <SheetContent
         side="left"
@@ -24,10 +28,14 @@ const MobileNav = ({ children }: { children: React.ReactElement }) => {
           </SheetDescription>
           <ul className="">
             <li>
-              <Link href="/all-categories">all categories</Link>
+              <Link onClick={() => setIsOpen(false)} href="/all-categories">
+                all categories
+              </Link>
             </li>
             <li>
-              <Link href="/themed-jewelry">themed jewelry</Link>
+              <Link onClick={() => setIsOpen(false)} href="/themed-jewelry">
+                themed jewelry
+              </Link>
             </li>
           </ul>
         </SheetHeader>
