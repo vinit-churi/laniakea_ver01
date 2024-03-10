@@ -3,6 +3,9 @@ import AllProductsSidebarFilter from "@/components/AllProducts/AllProductsSideba
 import Image from "next/image";
 import { AllProductsHeroImageSelector } from "@/constants/AllProductsHeroImages";
 import { TAllProductsHeroImageType } from "@/types/common/types";
+import BreadCrumbs from "@/components/AllProducts/BreadCrumbs";
+import AllProductsActiveFilters from "@/components/AllProducts/AllProductsActiveFilters";
+
 const ProductsLayout = ({
   children,
   params,
@@ -28,6 +31,12 @@ const ProductsLayout = ({
         <div className="before:contents-[''] absolute inset-0 z-0 flex flex-col items-center justify-center px-[50px] text-white before:absolute before:inset-0 before:z-[-1] before:bg-black/25">
           <p className="text-[50px] font-semibold ">{heroSectionData.title}</p>
           <p className="text-[20px]">{heroSectionData.description}</p>
+        </div>
+      </div>
+      <div className="flex h-16 items-center gap-10 px-5">
+        <BreadCrumbs />
+        <div className="flex gap-4">
+          <AllProductsActiveFilters />
         </div>
       </div>
       <div className="flex w-full ">
