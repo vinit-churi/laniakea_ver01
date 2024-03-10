@@ -9,7 +9,7 @@ export const products: Product[] = [
     price: 500,
     discountedPrice: 450,
     tags: ["ring", "diamond"],
-    image: "/assets/diamond_ring.jpg",
+    image: "/images/product_image_01.jpg",
   },
   {
     id: 2,
@@ -19,7 +19,7 @@ export const products: Product[] = [
     price: 700,
     discountedPrice: 650,
     tags: ["necklace", "gold"],
-    image: "/assets/gold_necklace.jpg",
+    image: "/images/product_image_01.jpg",
   },
   {
     id: 3,
@@ -29,7 +29,7 @@ export const products: Product[] = [
     price: 800,
     discountedPrice: 750,
     tags: ["earrings", "sapphire"],
-    image: "/assets/sapphire_earrings.jpg",
+    image: "/images/product_image_01.jpg",
   },
   {
     id: 4,
@@ -39,7 +39,7 @@ export const products: Product[] = [
     price: 350,
     discountedPrice: 320,
     tags: ["bracelet", "rose gold"],
-    image: "/assets/rose_gold_bracelet.jpg",
+    image: "/images/product_image_01.jpg",
   },
   {
     id: 5,
@@ -49,7 +49,7 @@ export const products: Product[] = [
     price: 600,
     discountedPrice: 550,
     tags: ["pendant", "emerald"],
-    image: "/assets/emerald_pendant.jpg",
+    image: "/images/product_image_01.jpg",
   },
   {
     id: 6,
@@ -59,7 +59,7 @@ export const products: Product[] = [
     price: 150,
     discountedPrice: 130,
     tags: ["earrings", "silver"],
-    image: "/assets/silver_hoop_earrings.jpg",
+    image: "/images/product_image_01.jpg",
   },
   {
     id: 7,
@@ -69,7 +69,7 @@ export const products: Product[] = [
     price: 550,
     discountedPrice: 500,
     tags: ["ring", "ruby"],
-    image: "/assets/ruby_ring.jpg",
+    image: "/images/product_image_01.jpg",
   },
   {
     id: 8,
@@ -79,7 +79,7 @@ export const products: Product[] = [
     price: 200,
     discountedPrice: 180,
     tags: ["earrings", "pearl"],
-    image: "/assets/pearl_drop_earrings.jpg",
+    image: "/images/product_image_01.jpg",
   },
   {
     id: 9,
@@ -89,7 +89,7 @@ export const products: Product[] = [
     price: 1000,
     discountedPrice: 950,
     tags: ["wedding band", "platinum"],
-    image: "/assets/platinum_wedding_band.jpg",
+    image: "/images/product_image_01.jpg",
   },
   {
     id: 10,
@@ -99,7 +99,7 @@ export const products: Product[] = [
     price: 300,
     discountedPrice: 280,
     tags: ["brooch", "opal"],
-    image: "/assets/opal_brooch.jpg",
+    image: "/images/product_image_01.jpg",
   },
   {
     id: 11,
@@ -109,7 +109,7 @@ export const products: Product[] = [
     price: 900,
     discountedPrice: 850,
     tags: ["necklace", "tanzanite"],
-    image: "/assets/tanzanite_necklace.jpg",
+    image: "/images/product_image_01.jpg",
   },
   {
     id: 12,
@@ -119,7 +119,7 @@ export const products: Product[] = [
     price: 250,
     discountedPrice: 220,
     tags: ["bracelet", "citrine"],
-    image: "/assets/citrine_bracelet.jpg",
+    image: "/images/product_image_01.jpg",
   },
   // Add more products here if needed
 ];

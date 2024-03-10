@@ -4,7 +4,14 @@ import { products } from "@/constants/Products";
 
 const AllProductsContainer = () => {
   return (
-    <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+    <div
+      className="mr-4"
+      style={{
+        display: "grid",
+        gridTemplateColumns: "repeat(auto-fill, minmax(250px, 1fr))",
+        gap: "1rem",
+      }}
+    >
       {products.map((product) => {
         return <Product key={product.id} product={product} />;
       })}
