@@ -6,7 +6,7 @@ export const AllProductsHeroImages = [
     name: "newArrivals",
     title: "New Arrivals",
     description: "Discover our latest collection of stunning jewelry.",
-    image: "/assets/new_arrivals_hero.jpg",
+    image: "/images/all_products_hero_background_01.jpg",
   },
   {
     id: 2,
@@ -14,7 +14,7 @@ export const AllProductsHeroImages = [
     title: "Exclusive Collection",
     description:
       "Explore our exclusive line of unique and elegant jewelry pieces.",
-    image: "/assets/exclusive_hero.jpg",
+    image: "/images/all_products_hero_background_02.jpg",
   },
   {
     id: 3,
@@ -22,7 +22,7 @@ export const AllProductsHeroImages = [
     title: "Diwali Special",
     description:
       "Celebrate Diwali with our exquisite jewelry crafted for the occasion.",
-    image: "/assets/diwali_hero.jpg",
+    image: "/images/all_products_hero_background_03.jpg",
   },
   // Add more objects for other scenarios
   {
@@ -30,14 +30,14 @@ export const AllProductsHeroImages = [
     name: "wedding",
     title: "Wedding Collection",
     description: "Discover the perfect jewelry for your special day.",
-    image: "/assets/wedding_hero.jpg",
+    image: "/images/all_products_hero_background_04.jpg",
   },
   {
     id: 5,
     name: "holidaySeason",
     title: "Holiday Season",
     description: "Elevate your holiday style with our festive jewelry designs.",
-    image: "/assets/holiday_season_hero.jpg",
+    image: "/images/all_products_hero_background_05.jpg",
   },
   {
     id: 6,
@@ -45,7 +45,7 @@ export const AllProductsHeroImages = [
     title: "Birthstone Collection",
     description:
       "Find personalized jewelry with the perfect birthstone for your loved ones.",
-    image: "/assets/birthstones_hero.jpg",
+    image: "/images/all_products_hero_background_06.jpg",
   },
 ];
 
@@ -54,7 +54,7 @@ const defaultHeroImage = {
   name: "default",
   title: "All Products",
   description: "Explore our stunning collection of jewelry.",
-  image: "/assets/hero.jpg",
+  image: "/images/all_products_hero_background_07.jpg",
 };
 
 export const AllProductsHeroImageSelector = (

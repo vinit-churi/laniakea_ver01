@@ -15,17 +15,19 @@ const ProductsLayout = ({
   const { slug = ["default"] } = params;
   const heroSectionData: TAllProductsHeroImageType =
     AllProductsHeroImageSelector(slug[0]);
+  console.log(heroSectionData);
   return (
     <div>
-      <div className="relative h-[300px] w-full ">
+      <div className="relative h-[350px] w-full ">
         <Image
           src={heroSectionData.image}
           fill
-          className="h-full w-full object-cover"
+          className="h-full w-full object-cover object-center"
           alt="products page"
         />
-        <div className="absolute inset-0 flex items-center px-[50px] text-white">
-          <p>{heroSectionData.title}</p>
+        <div className="before:contents-[''] absolute inset-0 z-0 flex flex-col items-center justify-center px-[50px] text-white before:absolute before:inset-0 before:z-[-1] before:bg-black/25">
+          <p className="text-[50px] font-semibold ">{heroSectionData.title}</p>
+          <p className="text-[20px]">{heroSectionData.description}</p>
         </div>
       </div>
       <div className="flex w-full ">
