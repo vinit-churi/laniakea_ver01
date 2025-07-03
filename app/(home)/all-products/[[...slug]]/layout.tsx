@@ -6,15 +6,20 @@ import { TAllProductsHeroImageType } from "@/types/common/types";
 import BreadCrumbs from "@/components/AllProducts/BreadCrumbs";
 import AllProductsActiveFilters from "@/components/AllProducts/AllProductsActiveFilters";
 
-const ProductsLayout = ({
-  children,
-  params,
-}: {
-  children: React.ReactNode;
-  params: {
-    slug: string[] | undefined;
-  };
-}) => {
+const ProductsLayout = async (
+  props: {
+    children: React.ReactNode;
+    params: Promise<{
+      slug: string[] | undefined;
+    }>;
+  }
+) => {
+  const params = await props.params;
+
+  const {
+    children
+  } = props;
+
   const { slug = ["default"] } = params;
   const heroSectionData: TAllProductsHeroImageType =
     AllProductsHeroImageSelector(slug[0]);

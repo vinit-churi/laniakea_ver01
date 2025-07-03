@@ -9,7 +9,7 @@ import {
 } from "@/components/ui/sheet";
 import Link from "next/link";
 
-const MobileNav = ({ children }: { children: React.ReactElement }) => {
+const MobileNav = ({ children }: { children: React.ReactElement<any> }) => {
   const [isOpen, setIsOpen] = React.useState(false);
   function handleChange() {
     setIsOpen(!isOpen);
